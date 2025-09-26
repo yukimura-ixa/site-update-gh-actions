@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Fri, 26 Sep 2025 17:22:27 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: csc.ku.ac.th
+X-Powered-By: PHP/7.4.33
+Set-Cookie: dwqa_anonymous=7wElLwAfRGCTaIltOgXKGnvsDUfEYHYdwddylt9N73U; expires=Mon, 24-Sep-2035 17:22:27 GMT; Max-Age=315360000; path=/th/; secure; HttpOnly
+Set-Cookie: PHPSESSID=66hab0q47mn613vbv4ejo0rpqn; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Link: <https://www.csc.ku.ac.th/th/index.php?rest_route=/>; rel="https://api.w.org/"
+Link: <https://www.csc.ku.ac.th/th/index.php?rest_route=/wp/v2/pages/2832>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.csc.ku.ac.th/th/>; rel=shortlink
+Vary: Accept-Encoding,User-Agent
+X-XSS-Protection: 0; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
