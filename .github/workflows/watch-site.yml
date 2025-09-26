@@ -2,7 +2,7 @@ name: Watch website for updates
 
 on:
   schedule:
-    # every 30 minutes; adjust if you like
+    # GitHub cron runs in **UTC**. 15:00,23:00 UTC = 22:00,06:00 Bangkok.
     - cron: "0 15,23 * * *"
   workflow_dispatch: {}
 
@@ -14,9 +14,7 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     env:
-      # Change this to any page you care about
       URL: https://www.csc.ku.ac.th/th/
-      # Example (procurement/news page): https://www.csc.ku.ac.th/th/?page_id=8867
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,25 +24,32 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p state
-          curl -L -s -D state/headers.tmp -o state/body.tmp "$URL"
-          etag=$(grep -i '^etag:' state/headers.tmp | awk '{print $2}' | tr -d '\r"')
-          lm=$(grep -i '^last-modified:' state/headers.tmp | cut -d: -f2- | sed 's/^[[:space:]]*//' | tr -d '\r')
+          curl -L -sS -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36" \
+               -D state/headers.tmp -o state/body.tmp "$URL"
+          printf '--- status+headers (first 20 lines) ---\n'
+          head -n 20 state/headers.tmp || true
+          printf '---------------------------------------\n'
+
+          etag=$(awk 'BEGIN{IGNORECASE=1} /^etag:/{print $2}' state/headers.tmp | tr -d '\r"')
+          lm=$(awk 'BEGIN{IGNORECASE=1} /^last-modified:/{sub(/^[^:]*:[[:space:]]*/,""); print}' state/headers.tmp | tr -d '\r')
+
           if [ -n "$etag" ]; then id="etag:$etag"
           elif [ -n "$lm" ]; then id="lm:$lm"
           else id=$(sha256sum state/body.tmp | awk '{print $1}')
           fi
-          echo "id=$id" >> $GITHUB_OUTPUT
-          echo "$URL" > state/url.txt
+
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+          printf '%s\n' "$URL" > state/url.txt
           cp state/body.tmp state/last.html || true
-          echo "$id" > state/current.id
+          printf '%s\n' "$id" > state/current.id
 
       - name: Detect change
         id: detect
         run: |
           if [ -f state/previous.id ] && cmp -s state/current.id state/previous.id; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             cp state/current.id state/previous.id
           fi
 
@@ -57,7 +62,7 @@ jobs:
           git add state
           git commit -m "Update detected for ${{ steps.get.outputs.id }}"
           git push
-          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Open issue notification (only when changed)
         if: steps.detect.outputs.changed == 'true'
@@ -91,9 +96,8 @@ jobs:
         run: |
           api="https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"
           text="Update detected: ${URL}"
-          curl -s -X POST "$api" \
+          curl -sS -X POST "$api" \
             -d chat_id="${TELEGRAM_CHAT_ID}" \
             -d text="$text" \
             -d disable_web_page_preview=true \
             -d disable_notification=false
-
