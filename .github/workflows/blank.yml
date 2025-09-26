@@ -1,0 +1,99 @@
+name: Watch website for updates
+
+on:
+  schedule:
+    # every 30 minutes; adjust if you like
+    - cron: "0 15,23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      # Change this to any page you care about
+      URL: https://www.csc.ku.ac.th/th/
+      # Example (procurement/news page): https://www.csc.ku.ac.th/th/?page_id=8867
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch page & compute change id
+        id: get
+        run: |
+          set -euo pipefail
+          mkdir -p state
+          curl -L -s -D state/headers.tmp -o state/body.tmp "$URL"
+          etag=$(grep -i '^etag:' state/headers.tmp | awk '{print $2}' | tr -d '\r"')
+          lm=$(grep -i '^last-modified:' state/headers.tmp | cut -d: -f2- | sed 's/^[[:space:]]*//' | tr -d '\r')
+          if [ -n "$etag" ]; then id="etag:$etag"
+          elif [ -n "$lm" ]; then id="lm:$lm"
+          else id=$(sha256sum state/body.tmp | awk '{print $1}')
+          fi
+          echo "id=$id" >> $GITHUB_OUTPUT
+          echo "$URL" > state/url.txt
+          cp state/body.tmp state/last.html || true
+          echo "$id" > state/current.id
+
+      - name: Detect change
+        id: detect
+        run: |
+          if [ -f state/previous.id ] && cmp -s state/current.id state/previous.id; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            cp state/current.id state/previous.id
+          fi
+
+      - name: Commit state (only when changed)
+        if: steps.detect.outputs.changed == 'true'
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          git commit -m "Update detected for ${{ steps.get.outputs.id }}"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Open issue notification (only when changed)
+        if: steps.detect.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const url = fs.readFileSync('state/url.txt','utf8').trim();
+            const id  = `${{ steps.get.outputs.id }}`;
+            const sha = `${{ steps.commit.outputs.sha }}`;
+            const body = [
+              `Detected an update at **${url}**`,
+              ``,
+              `Identifier: \`${id}\``,
+              `Commit: https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${sha}`,
+              `HTML snapshot saved at \`state/last.html\` in the repo.`
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Site updated: ${url}`,
+              body
+            });
+
+      - name: Telegram notify
+        if: steps.detect.outputs.changed == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          URL: ${{ env.URL }}
+        run: |
+          api="https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"
+          text="Update detected: ${URL}"
+          curl -s -X POST "$api" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d text="$text" \
+            -d disable_web_page_preview=true \
+            -d disable_notification=false
+
