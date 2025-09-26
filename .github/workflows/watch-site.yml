@@ -26,22 +26,26 @@ jobs:
           mkdir -p state
           curl -L -sS -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36" \
                -D state/headers.tmp -o state/body.tmp "$URL"
-          printf '--- status+headers (first 20 lines) ---\n'
+      
+          # Debug (safe prints)
+          printf '%s\n' '--- status+headers (first 20 lines) ---'
           head -n 20 state/headers.tmp || true
-          printf '---------------------------------------\n'
-
+          printf '%s\n' '---------------------------------------'
+      
+          # Extract headers case-insensitively without failing if absent
           etag=$(awk 'BEGIN{IGNORECASE=1} /^etag:/{print $2}' state/headers.tmp | tr -d '\r"')
           lm=$(awk 'BEGIN{IGNORECASE=1} /^last-modified:/{sub(/^[^:]*:[[:space:]]*/,""); print}' state/headers.tmp | tr -d '\r')
-
+      
           if [ -n "$etag" ]; then id="etag:$etag"
           elif [ -n "$lm" ]; then id="lm:$lm"
           else id=$(sha256sum state/body.tmp | awk '{print $1}')
           fi
-
+      
           echo "id=$id" >> "$GITHUB_OUTPUT"
           printf '%s\n' "$URL" > state/url.txt
           cp state/body.tmp state/last.html || true
           printf '%s\n' "$id" > state/current.id
+
 
       - name: Detect change
         id: detect
