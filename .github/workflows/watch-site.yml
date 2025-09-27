@@ -3,7 +3,7 @@ name: Watch website for updates
 on:
   schedule:
     # GitHub cron runs in **UTC**. 15:00,23:00 UTC = 22:00,06:00 Bangkok.
-    - cron: "0 15,23 * * *"
+    - cron: "0 1,2,8,9 * * *"
   workflow_dispatch: {}
 
 permissions:
