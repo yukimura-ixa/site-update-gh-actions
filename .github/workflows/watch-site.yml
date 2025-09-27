@@ -1,82 +1,117 @@
 name: Watch website for updates
 
+# Trigger this workflow on schedule and manual dispatch
 on:
   schedule:
     # GitHub cron runs in **UTC**. 15:00,23:00 UTC = 22:00,06:00 Bangkok.
+    # Runs 4 times daily: 01:00, 02:00, 08:00, 09:00 UTC
     - cron: "0 1,2,8,9 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {} # Allow manual triggering from GitHub UI
 
+# Grant permissions needed for this workflow
 permissions:
-  contents: write
-  issues: write
+  contents: write # Required to commit state changes back to repository
+  issues: write   # Required to create GitHub issues for notifications
 
 jobs:
   watch:
     runs-on: ubuntu-latest
     env:
+      # Target website URL to monitor for changes
       URL: https://www.csc.ku.ac.th/th/
     steps:
+      # Step 1: Download the repository code to access previous state files
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Step 2: Fetch the website content and generate a unique change identifier
+      # This step downloads the target website and creates an ID to detect changes
       - name: Fetch page & compute change id
         id: get
         run: |
           set -euo pipefail
+          # Create state directory to store website snapshots and metadata
           mkdir -p state
+          
+          # Download website with proper headers to mimic a real browser
+          # -L: follow redirects, -sS: silent but show errors, -A: user agent
+          # -D: save response headers, -o: save response body
           curl -L -sS -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36" \
                -D state/headers.tmp -o state/body.tmp "$URL"
       
-          # Debug (safe prints)
+          # Debug output: Show first 20 lines of HTTP response headers
           printf '%s\n' '--- status+headers (first 20 lines) ---'
           head -n 20 state/headers.tmp || true
           printf '%s\n' '---------------------------------------'
       
-          # Extract headers case-insensitively without failing if absent
+          # Extract cache-related headers to create a unique identifier for the page state
+          # Try ETag first (most reliable), then Last-Modified, finally content hash
           etag=$(awk 'BEGIN{IGNORECASE=1} /^etag:/{print $2}' state/headers.tmp | tr -d '\r"')
           lm=$(awk 'BEGIN{IGNORECASE=1} /^last-modified:/{sub(/^[^:]*:[[:space:]]*/,""); print}' state/headers.tmp | tr -d '\r')
       
+          # Generate unique identifier based on server headers or content hash
           if [ -n "$etag" ]; then id="etag:$etag"
           elif [ -n "$lm" ]; then id="lm:$lm"
           else id=$(sha256sum state/body.tmp | awk '{print $1}')
           fi
       
+          # Save outputs for use in subsequent steps
           echo "id=$id" >> "$GITHUB_OUTPUT"
           printf '%s\n' "$URL" > state/url.txt
           cp state/body.tmp state/last.html || true
           printf '%s\n' "$id" > state/current.id
 
-
+      # Step 3: Compare current website state with previous state to detect changes
+      # This step determines if the website has been updated since the last check
       - name: Detect change
         id: detect
         run: |
+          # Compare current identifier with previous one stored from last run
+          # If files are identical (cmp -s), no change detected
           if [ -f state/previous.id ] && cmp -s state/current.id state/previous.id; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
+            # Change detected: update previous.id for next run
             echo "changed=true" >> "$GITHUB_OUTPUT"
             cp state/current.id state/previous.id
           fi
 
+      # Step 4: Commit the updated state files back to the repository
+      # This only runs when a change is detected to preserve git history
       - name: Commit state (only when changed)
         if: steps.detect.outputs.changed == 'true'
         id: commit
         run: |
+          # Configure git with GitHub Actions bot identity
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage all state directory changes (HTML snapshot, IDs, metadata)
           git add state
+          
+          # Commit with descriptive message including the change identifier
           git commit -m "Update detected for ${{ steps.get.outputs.id }}"
+          
+          # Push changes back to repository
           git push
+          
+          # Output commit SHA for use in notifications
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      # Step 5: Create a GitHub issue to notify about the detected website change
+      # This provides a permanent record and notification mechanism for changes
       - name: Open issue notification (only when changed)
         if: steps.detect.outputs.changed == 'true'
         uses: actions/github-script@v7
         with:
           script: |
+            // Read saved URL and prepare notification data
             const fs = require('fs');
             const url = fs.readFileSync('state/url.txt','utf8').trim();
             const id  = `${{ steps.get.outputs.id }}`;
             const sha = `${{ steps.commit.outputs.sha }}`;
+            
+            // Create formatted issue body with update details
             const body = [
               `Detected an update at **${url}**`,
               ``,
@@ -84,6 +119,8 @@ jobs:
               `Commit: https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${sha}`,
               `HTML snapshot saved at \`state/last.html\` in the repo.`
             ].join('\n');
+            
+            // Create GitHub issue with change notification
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -91,15 +128,21 @@ jobs:
               body
             });
 
+      # Step 6: Send instant notification via Telegram bot
+      # This provides immediate mobile/desktop notification for website changes
       - name: Telegram notify
         if: steps.detect.outputs.changed == 'true'
         env:
+          # Telegram bot credentials stored as GitHub repository secrets
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           URL: ${{ env.URL }}
         run: |
+          # Telegram Bot API endpoint for sending messages
           api="https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"
           text="Update detected: ${URL}"
+          
+          # Send notification message via Telegram API
           curl -sS -X POST "$api" \
             -d chat_id="${TELEGRAM_CHAT_ID}" \
             -d text="$text" \
