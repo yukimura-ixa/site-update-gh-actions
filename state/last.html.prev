@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html class="ie ie8" lang="th"> <![endif]-->
+<!--[if IE 9]> <html class="ie ie9" lang="th"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="th"> <!--<![endif]-->
+
+<head>
+
+
+<meta charset="UTF-8" />
+<title>มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร &mdash; นนทรีอีสาน วิทยาเขตสารสนเทศ มก.ฉกส.</title>
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="pingback" href="https://www.csc.ku.ac.th/th/xmlrpc.php" />
+	
+<link rel="shortcut icon" href="https://www.csc.ku.ac.th/th/wp-content/uploads/2020/09/kuicon.png" />	
+
+<link rel="apple-touch-icon-precomposed" href="https://www.csc.ku.ac.th/th/wp-content/uploads/2020/09/kuicon.png" />
+	
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร &raquo; ฟีด" href="https://www.csc.ku.ac.th/th/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร &raquo; ฟีดความเห็น" href="https://www.csc.ku.ac.th/th/?feed=comments-rss2" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.csc.ku.ac.th\/th\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.csc.ku.ac.th/th/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='restrict-content-pro-content-upgrade-redirect-style-inline-css' type='text/css'>
+.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-25{width:calc(25% - .5rem)}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-25 .wp-block-button__link{width:100%}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-50{width:calc(50% - .5rem)}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-50 .wp-block-button__link{width:100%}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-75{width:calc(75% - .5rem)}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-75 .wp-block-button__link{width:100%}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-100{margin-right:0;width:100%}.wp-block-restrict-content-pro-content-upgrade-redirect .wp-block-button__width-100 .wp-block-button__link{width:100%}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dwqa-font-awesome-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=6.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dwqa-style-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/dw-question-answer-pro/templates/assets/css/style.css?ver=190820170952' type='text/css' media='all' />
+<link rel='stylesheet' id='dwqa-style-rtl-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/dw-question-answer-pro/templates/assets/css/rtl.css?ver=190820170952' type='text/css' media='all' />
+<link rel='stylesheet' id='dwqa-attachments-style-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/dw-question-answer-pro/assets/css/dwqa-attachments-style.css?ver=6.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pdpa-thailand-public-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/pdpa-thailand/public/assets/css/pdpa-thailand-public.min.css?ver=1.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400Italic%2C600%2C700%7CRoboto+Slab%7CMerriweather%3A300italic&#038;subset' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-core-css' href='https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/style.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-responsive-css' href='https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/css/responsive.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css' href='https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/css/prettyPhoto.css?ver=3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmag-font-awesome-css' href='https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/css/fontawesome/css/font-awesome.min.css?ver=3.4.0' type='text/css' media='all' />
+<style id='smartmag-font-awesome-inline-css' type='text/css'>
+@import url('https://fonts.googleapis.com/css?family=Prompt%3A400|Prompt%3A500|Prompt%3A600|Prompt%3A700|Prompt%3A300&subset=');
+
+
+body,
+.gallery-title,
+.section-head,
+.block-head,
+.modal-header .modal-title,
+h3.gallery-title,
+.modern-quote cite,
+.comment-respond small,
+.main-heading,
+.page-title,
+.entry-title,
+.main .sidebar .widgettitle,
+.tabbed .tabs-list,
+.main-footer .widgettitle { font-family: "Prompt", Arial, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.posts-list .content > a,
+.block.posts a,
+.gallery-block .carousel .title a,
+.navigate-posts .link,
+.list-timeline .posts article,
+.bbpress.single-topic .main-heading,
+#bbpress-forums .bbp-topic-title,
+#bbpress-forums .bbp-forum-title { font-family: "Prompt", Georgia, serif; }
+.post-content { font-family: "Prompt", Arial, sans-serif; font-weight: 300; font-size: 14px;  }
+.navigation .menu { font-family: "Prompt", Arial, sans-serif; font-weight: 700;  }
+.highlights .excerpt, .listing-alt .content .excerpt { font-family: "Prompt", Arial, sans-serif; font-weight: 300; font-size: 14px;  }
+.post-header h1, .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { font-family: "Prompt", Arial, sans-serif; font-weight: 700;  }
+h1, h2, h3, h4, h5, h6 { color: #006664; }
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { color: #006664; }
+
+.navigation { background-color: #006664;; }
+
+@media only screen and (max-width: 799px) { .navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a, 
+.navigation .menu > .current-menu-parent > a { background-color: #006664;; } }
+
+.navigation.sticky { background: rgb(0,102,100); background: rgba(0,102,100, 0.9);; }
+
+.main .sidebar .widgettitle, .tabbed .tabs-list { background-color: #006664;; }
+
+.main-footer { background-color: #006664; background-image: none;; }
+
+.post-content { color: #000000; }
+
+.navigation .menu > li:hover, .navigation .menu li li:hover, .navigation .menu li li.current-menu-item,
+.navigation .mega-menu .sub-nav li:hover, .navigation .menu .sub-nav li.current-menu-item { background-color: #009292;; }
+
+@media only screen and (max-width: 799px) { .navigation .menu > li:hover > a, .navigation .menu > .current-menu-item > a, 
+.navigation .menu > .current-menu-parent > a, .navigation .mega-menu.links > li:hover,
+.navigation .menu > .current-menu-ancestor > a, .navigation .menu li.active { background-color: #009292;; } }
+
+.navigation { border-color: #b2bb1e;; }
+
+.navigation .menu > li li a, .navigation .mega-menu.links > li > a, .navigation .mega-menu.links > li li a,
+.mega-menu .posts-list .content, .navigation .mega-menu .sub-nav li a { border-color: #b2bb1e;; }
+
+@media only screen and (max-width: 799px) { .navigation .menu li a { border-color: #b2bb1e;; } }
+
+.navigation .mega-menu, .navigation .menu ul { background-color: #007a7a;; }
+
+@media only screen and (max-width: 799px) { .navigation .mega-menu.links > li:hover { background-color: #007a7a;; } }
+
+.mega-menu .heading, .navigation .mega-menu.links > li > a { border-color: #b2bb1e;; }
+
+.navigation .mega-menu .sub-nav { background: #006664;; }
+
+.navigation a, .mega-menu .heading, .mega-menu .featured h2 a { color: #ffffff;; }
+
+.lower-foot { background-color: #b2bb1e; }
+
+.main-footer .widgettitle { color: #ffffff; }
+
+.main-footer, .main-footer .widget { color: #ffffff; }
+
+.main-footer .widget a { color: #ffd800; }
+
+.lower-foot { color: #ffffff; }
+
+.lower-foot a { color: #006664; }
+
+.highlights .excerpt, .listing-alt .content .excerpt { color: #006664; }
+
+.post-content a:hover { color: #b2bb1e; }
+
+.post-content a { color: #006664; }
+
+
+.cat-15, 
+.cat-title.cat-15,
+.block-head.cat-text-15 .heading { 
+	background: #32742c;
+}
+
+.block-head.cat-text-15 {
+	border-color: #32742c;
+}
+				
+.cat-text-15, .section-head.cat-text-15 { color: #32742c; }
+				 
+
+.navigation .menu > .menu-cat-15:hover > a, .navigation .menu > .menu-cat-15.current-menu-item > a, .navigation .menu > .menu-cat-15.current-menu-parent > a {
+	border-bottom-color: #32742c;
+}
+
+
+.cat-14, 
+.cat-title.cat-14,
+.block-head.cat-text-14 .heading { 
+	background: #d4301a;
+}
+
+.block-head.cat-text-14 {
+	border-color: #d4301a;
+}
+				
+.cat-text-14, .section-head.cat-text-14 { color: #d4301a; }
+				 
+
+.navigation .menu > .menu-cat-14:hover > a, .navigation .menu > .menu-cat-14.current-menu-item > a, .navigation .menu > .menu-cat-14.current-menu-parent > a {
+	border-bottom-color: #d4301a;
+}
+
+
+.cat-19, 
+.cat-title.cat-19,
+.block-head.cat-text-19 .heading { 
+	background: #32742c;
+}
+
+.block-head.cat-text-19 {
+	border-color: #32742c;
+}
+				
+.cat-text-19, .section-head.cat-text-19 { color: #32742c; }
+				 
+
+.navigation .menu > .menu-cat-19:hover > a, .navigation .menu > .menu-cat-19.current-menu-item > a, .navigation .menu > .menu-cat-19.current-menu-parent > a {
+	border-bottom-color: #32742c;
+}
+
+
+.cat-16, 
+.cat-title.cat-16,
+.block-head.cat-text-16 .heading { 
+	background: #32742c;
+}
+
+.block-head.cat-text-16 {
+	border-color: #32742c;
+}
+				
+.cat-text-16, .section-head.cat-text-16 { color: #32742c; }
+				 
+
+.navigation .menu > .menu-cat-16:hover > a, .navigation .menu > .menu-cat-16.current-menu-item > a, .navigation .menu > .menu-cat-16.current-menu-parent > a {
+	border-bottom-color: #32742c;
+}
+
+
+.cat-17, 
+.cat-title.cat-17,
+.block-head.cat-text-17 .heading { 
+	background: #e67e22;
+}
+
+.block-head.cat-text-17 {
+	border-color: #e67e22;
+}
+				
+.cat-text-17, .section-head.cat-text-17 { color: #e67e22; }
+				 
+
+.navigation .menu > .menu-cat-17:hover > a, .navigation .menu > .menu-cat-17.current-menu-item > a, .navigation .menu > .menu-cat-17.current-menu-parent > a {
+	border-bottom-color: #e67e22;
+}
+
+
+.cat-18, 
+.cat-title.cat-18,
+.block-head.cat-text-18 .heading { 
+	background: #3498db;
+}
+
+.block-head.cat-text-18 {
+	border-color: #3498db;
+}
+				
+.cat-text-18, .section-head.cat-text-18 { color: #3498db; }
+				 
+
+.navigation .menu > .menu-cat-18:hover > a, .navigation .menu > .menu-cat-18.current-menu-item > a, .navigation .menu > .menu-cat-18.current-menu-parent > a {
+	border-bottom-color: #3498db;
+}
+
+
+.cat-2, 
+.cat-title.cat-2,
+.block-head.cat-text-2 .heading { 
+	background: #d70060;
+}
+
+.block-head.cat-text-2 {
+	border-color: #d70060;
+}
+				
+.cat-text-2, .section-head.cat-text-2 { color: #d70060; }
+				 
+
+.navigation .menu > .menu-cat-2:hover > a, .navigation .menu > .menu-cat-2.current-menu-item > a, .navigation .menu > .menu-cat-2.current-menu-parent > a {
+	border-bottom-color: #d70060;
+}
+
+body.boxed.category-2 { background: url(http://theme-sphere.com/smart-mag/wp-content/uploads/2013/07/9278066227_ae25452933_b1.jpg) no-repeat center center fixed; -webkit-background-size: cover; background-size: cover; }
+
+.cat-11, 
+.cat-title.cat-11,
+.block-head.cat-text-11 .heading { 
+	background: #d4301a;
+}
+
+.block-head.cat-text-11 {
+	border-color: #d4301a;
+}
+				
+.cat-text-11, .section-head.cat-text-11 { color: #d4301a; }
+				 
+
+.navigation .menu > .menu-cat-11:hover > a, .navigation .menu > .menu-cat-11.current-menu-item > a, .navigation .menu > .menu-cat-11.current-menu-parent > a {
+	border-bottom-color: #d4301a;
+}
+
+
+.cat-3, 
+.cat-title.cat-3,
+.block-head.cat-text-3 .heading { 
+	background: #32742c;
+}
+
+.block-head.cat-text-3 {
+	border-color: #32742c;
+}
+				
+.cat-text-3, .section-head.cat-text-3 { color: #32742c; }
+				 
+
+.navigation .menu > .menu-cat-3:hover > a, .navigation .menu > .menu-cat-3.current-menu-item > a, .navigation .menu > .menu-cat-3.current-menu-parent > a {
+	border-bottom-color: #32742c;
+}
+
+
+.cat-12, 
+.cat-title.cat-12,
+.block-head.cat-text-12 .heading { 
+	background: #e67e22;
+}
+
+.block-head.cat-text-12 {
+	border-color: #e67e22;
+}
+				
+.cat-text-12, .section-head.cat-text-12 { color: #e67e22; }
+				 
+
+.navigation .menu > .menu-cat-12:hover > a, .navigation .menu > .menu-cat-12.current-menu-item > a, .navigation .menu > .menu-cat-12.current-menu-parent > a {
+	border-bottom-color: #e67e22;
+}
+
+
+.cat-13, 
+.cat-title.cat-13,
+.block-head.cat-text-13 .heading { 
+	background: #2980b9;
+}
+
+.block-head.cat-text-13 {
+	border-color: #2980b9;
+}
+				
+.cat-text-13, .section-head.cat-text-13 { color: #2980b9; }
+				 
+
+.navigation .menu > .menu-cat-13:hover > a, .navigation .menu > .menu-cat-13.current-menu-item > a, .navigation .menu > .menu-cat-13.current-menu-parent > a {
+	border-bottom-color: #2980b9;
+}
+
+
+.cat-4, 
+.cat-title.cat-4,
+.block-head.cat-text-4 .heading { 
+	background: #3498db;
+}
+
+.block-head.cat-text-4 {
+	border-color: #3498db;
+}
+				
+.cat-text-4, .section-head.cat-text-4 { color: #3498db; }
+				 
+
+.navigation .menu > .menu-cat-4:hover > a, .navigation .menu > .menu-cat-4.current-menu-item > a, .navigation .menu > .menu-cat-4.current-menu-parent > a {
+	border-bottom-color: #3498db;
+}
+
+
+body.boxed {
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; 
+background-size: cover;
+background-image: url('http://theme-sphere.com/smart-mag/wp-content/uploads/2014/01/5-4yas-4415263267_3c62eecb99_o.jpg');
+
+}
+</style>
+<link rel='stylesheet' id='dwqa_leaderboard-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/dw-question-answer-pro/templates/assets/css/leaderboard.css?ver=6.8.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/dw-question-answer-pro/assets/js/dwqa-attachments-button-upload.js?ver=6.8.1" id="dwqa-attachments-button-upload-script-js"></script>
+<script type="text/javascript" id="google-recaptcha-js-extra">
+/* <![CDATA[ */
+var dwqa_gcv2 = {"public_key":"6Ld1uqQpAAAAAK6UogEOY4X6YSCwCVG9RiXD10uW"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?ver=6.8.1" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.7" async id="tp-tools-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.7" async id="revmin-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/js/jquery.prettyPhoto.js?ver=6.8.1" id="pretty-photo-smartmag-js"></script>
+<link rel="https://api.w.org/" href="https://www.csc.ku.ac.th/th/index.php?rest_route=/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.csc.ku.ac.th/th/index.php?rest_route=/wp/v2/pages/2832" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csc.ku.ac.th/th/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.1" />
+<link rel="canonical" href="https://www.csc.ku.ac.th/th/" />
+<link rel='shortlink' href='https://www.csc.ku.ac.th/th/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.csc.ku.ac.th/th/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.csc.ku.ac.th%2Fth%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.csc.ku.ac.th/th/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.csc.ku.ac.th%2Fth%2F&#038;format=xml" />
+<meta name="generator" content="Powered by Slider Revolution 6.5.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";					
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+	
+<!--[if lt IE 9]>
+<script src="https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<script>
+document.querySelector('head').innerHTML += '<style class="bunyad-img-effects-css">.main img, .main-footer img { opacity: 0; }</style>';
+</script>
+	
+
+</head>
+
+
+<body class="home wp-singular page-template page-template-page-blocks page-template-page-blocks-php page page-id-2832 wp-theme-smm-old page-builder right-sidebar full has-featured img-effects has-nav-dark has-head-default">
+
+<div class="main-wrap">
+
+	
+	
+	<div class="top-bar">
+
+		<div class="wrap">
+			<section class="top-bar-content cf">
+			
+							
+								<div class="trending-ticker">
+					<span class="heading">ข่าวอัพเดท :</span>
+
+					<ul>
+												
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10731" title="ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน">ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10729" title="ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10726" title="ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10724" title="ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10722" title="ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ">ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10718" title="ประกาศรายชื่อผู้มีสิทธิ์เข้าสอบภาคความเหมาะสมกับตำแหน่ง (สอบสัมภาษณ์) ตำแหน่งนักวิชาการคอมพิวเตอร์ ระดับปฏิบัติการ">ประกาศรายชื่อผู้มีสิทธิ์เข้าสอบภาคความเหมาะสมกับตำแหน่ง (สอบสัมภาษณ์) ตำแหน่งนักวิชาการคอมพิวเตอร์ ระดับปฏิบัติการ</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10711" title="ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ</a></li>
+						
+												
+							<li><a href="https://www.csc.ku.ac.th/th/?p=10708" title="ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a></li>
+						
+												
+											</ul>
+				</div>
+				
+									
+					
+		<div class="search">
+			<form role="search" action="https://www.csc.ku.ac.th/th/" method="get">
+				<input type="text" name="s" class="query live-search-query" value="" placeholder="ค้นหาข้อมูล..."/>
+				<button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div> <!-- .search -->					
+				
+								
+			</section>
+		</div>
+		
+	</div>
+	
+	<div id="main-head" class="main-head">
+		
+		<div class="wrap">
+			
+			
+			<header class="default">
+			
+				<div class="title">
+							<a href="https://www.csc.ku.ac.th/th/" title="มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร" rel="home" class="is-logo-mobile">
+		
+														
+									<img src="https://www.csc.ku.ac.th/th/wp-content/uploads/2025/09/kucsclogo2025-color.png" class="logo-mobile" width="0" height="0" />
+								
+				<img src="https://www.csc.ku.ac.th/th/wp-content/uploads/2025/09/kucsclogo2025-color.png" class="logo-image" alt="มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร" />
+					 
+						
+		</a>				</div>
+				
+									
+					<div class="right">
+					
+				
+					
+			<div class="a-widget">
+			
+				<a href="https://misreg.csc.ku.ac.th/admission/" target="_blank"><img src="https://www.csc.ku.ac.th/wp-content/uploads/2025/07/3bu2025-01.svg" alt="รับสมัครนิสิตใหม่ประจำปีการศึกษา 2569 tcas2569 มก.ฉกส."/></a>			
+			</div>
+		
+				
+							</div>
+					
+								
+			</header>
+				
+							
+				
+<div class="main-nav">
+	<div class="navigation-wrap cf" data-sticky-nav="1" data-sticky-type="smart">
+	
+		<nav class="navigation cf nav-dark has-search">
+		
+			<div class>
+			
+				<div class="mobile" data-type="off-canvas" data-search="1">
+					<a href="#" class="selected">
+						<span class="text">เมนู:</span><span class="current"></span> <i class="hamburger fa fa-bars"></i>
+					</a>
+				</div>
+				
+				<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2832 current_page_item menu-item-2838"><a href="https://www.csc.ku.ac.th/th/" aria-current="page">หน้าหลัก</a></li>
+<li id="menu-item-2057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2057"><a href="#">วิทยาเขต</a><ul class="mega-menu links row">
+		<li id="menu-item-2071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2071"><a href="#">แนะนำวิทยาเขต</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2241" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-47 menu-item-2241"><a href="https://www.csc.ku.ac.th/th/?cat=47">ความภาคภูมิใจ มก.ฉกส.</a></li>
+		<li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2248"><a href="https://www.csc.ku.ac.th/th/?p=2245">ประวัติความเป็นมา</a></li>
+		<li id="menu-item-2396" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2396"><a href="https://www.csc.ku.ac.th/th/?p=2392">ปรัชญา/วิสัยทัศน์/พันธกิจ</a></li>
+		<li id="menu-item-2243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2243"><a target="_blank" href="http://arc.csc.ku.ac.th">จดหมายเหตุ มก.ฉกส.</a></li>
+		<li id="menu-item-6959" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-6959"><a href="https://www.csc.ku.ac.th/th/?p=6953">เรื่องเล่าตำนาน มก.ฉกส.</a></li>
+		<li id="menu-item-2242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2242"><a target="_blank" href="https://woodland.csc.ku.ac.th">วนานันทอุทยาน</a></li>
+		<li id="menu-item-2727" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-48 menu-item-2727"><a href="https://www.csc.ku.ac.th/th/?cat=48">Unseen นนทรีอีสาน</a></li>
+		<li id="menu-item-2843" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2843"><a target="_blank" href="https://www.csc.ku.ac.th/uigreen">UI Green Metric</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2084"><a href="#">ประกันคุณภาพ มก.ฉกส.</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5206"><a target="_blank" href="https://www.csc.ku.ac.th/th/wp-content/uploads/2021/10/แผนยุทธศาสตร์-มก.ฉกส.-ปี2564-2567-.pdf">แผนยุทธศาสตร์ มก.ฉกส.</a></li>
+		<li id="menu-item-5194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5194"><a target="_blank" href="https://www.csc.ku.ac.th/th/wp-content/uploads/2018/10/SAR-CSC60.pdf">รายงานการประเมินตนเอง 2560</a></li>
+	</ul>
+</li>
+	<li id="menu-item-8031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8031"><a href="#">โครงการภายใต้ภารกิจ มก.ฉกส.</a>
+	<ul class="sub-menu">
+		<li id="menu-item-8033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8033"><a href="https://www.csc.ku.ac.th/th/?page_id=8027">ทำนุบำรุงศิลปะและวัฒนธรรม</a></li>
+		<li id="menu-item-8032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8032"><a href="https://www.csc.ku.ac.th/th/?page_id=8029">บริการวิชาการ</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2211"><a href="#">การเข้าศึกษา</a><ul class="mega-menu links row">
+		<li id="menu-item-2212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2212"><a href="#">หลักสูตร/ค่าใช้จ่าย</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5594" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5594"><a target="_blank" href="https://occ.csc.ku.ac.th/reg/?p=2525">ค่าใช้จ่ายหลักสูตรปริญญาตรี</a></li>
+		<li id="menu-item-2329" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2329"><a href="https://www.csc.ku.ac.th/th/?p=2327">ค่าใช้จ่ายหลักสูตรปริญญาโท</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2213"><a href="#">ระดับปริญญาตรี</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2254"><a target="_blank" href="https://misreg.csc.ku.ac.th/admission/">ปริญญาตรีภาคปกติ</a></li>
+		<li id="menu-item-2256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2256"><a target="_blank" href="http://spe.csc.ku.ac.th/">ปริญญาตรีภาคพิเศษคณะ วว.</a></li>
+		<li id="menu-item-2262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2262"><a href="#">สาธารณสุขศาสตร์ (ภาคพิเศษ)</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2214" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2214"><a href="#">ระดับปริญญาโท</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2263"><a target="_blank" href="http://mba.csc.ku.ac.th">ปริญญาบริหารธุรกิจมหาบัณฑิต</a></li>
+		<li id="menu-item-3332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3332"><a target="_blank" href="https://www.facebook.com/MEngFSE/">หลักสูตร วศ.ม. สาขาวิชาการจัดการวิศวกรรมและเทคโนโลยี (ภาคพิเศษ)</a></li>
+		<li id="menu-item-5668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5668"><a href="http://www.grad.ku.ac.th/">วท.ม. สาขาเทคโนโลยีการอาหาร</a></li>
+		<li id="menu-item-5669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5669"><a href="http://www.grad.ku.ac.th/">วท.ม. สาขาทรัพยากรเกษตร</a></li>
+		<li id="menu-item-5670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5670"><a href="http://fph.csc.ku.ac.th/">ส.ม. สาขาสาธารณสุขศาสตร์</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7487"><a href="http://www.csc.ku.ac.th">หลักสูตรประกาศนียบัตร (Non degree)</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7495"><a href="https://drive.google.com/file/d/1InQZOIVOARuwDghB49v4SGFMQ8RmMnpU/view">รายละเอียด</a></li>
+		<li id="menu-item-7928" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7928"><a href="https://www.csc.ku.ac.th/th/?p=7926">ชุดผลิตโคเนื้อคุณภาพสูง</a></li>
+		<li id="menu-item-8119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8119"><a href="https://www.csc.ku.ac.th/th/?p=8120">ชุดวิชาการผลิตผักเพื่อการพัฒนาที่ยั่งยืน</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2215" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2215"><a href="#">ทุนการศึกษา</a></li>
+</ul>
+</li>
+<li id="menu-item-2179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2179"><a href="#">การบริหาร</a><ul class="mega-menu links row">
+		<li id="menu-item-2181" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2181"><a href="#">คณะผู้บริหาร</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2335" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2335"><a href="https://www.csc.ku.ac.th/th/?p=2332">โครงสร้างการบริหาร มก.ฉกส.</a></li>
+		<li id="menu-item-2726" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2726"><a href="https://www.csc.ku.ac.th/th/?p=2272">คณะกรรมการประจำวิทยาเขต</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2180"><a href="#">ระบบสารสนเทศ</a>
+	<ul class="sub-menu">
+		<li id="menu-item-3071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3071"><a target="_blank" href="http://misreg.csc.ku.ac.th/emeeting">ระบบประชุมอิเล็กทรอนิกส์</a></li>
+		<li id="menu-item-2182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2182"><a target="_blank" href="https://misreg.csc.ku.ac.th/misreg/executive_v2/">สารสนเทศสำหรับผู้บริหาร</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2348"><a href="https://www.csc.ku.ac.th/th/?page_id=2342">บุคคลทั่วไป</a></li>
+<li id="menu-item-2355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2355"><a href="https://www.csc.ku.ac.th/th/?page_id=2351">นิสิต</a></li>
+<li id="menu-item-8298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8298"><a target="_blank" href="https://inv.csc.ku.ac.th/alumni/">นิสิตเก่า</a></li>
+<li id="menu-item-2356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2356"><a href="https://www.csc.ku.ac.th/th/?page_id=2353">บุคลากร</a></li>
+<li id="menu-item-7901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7901"><a href="https://www.csc.ku.ac.th/th/?page_id=7894">งานวิจัย</a></li>
+<li id="menu-item-2138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2138"><a href="#">หน่วยงาน</a><ul class="mega-menu links row">
+		<li id="menu-item-2130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2130"><a href="#">สายวิชาการ</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2134"><a target="_blank" href="http://fna.csc.ku.ac.th/">คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร</a></li>
+		<li id="menu-item-2135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2135"><a target="_blank" href="http://kuse.csc.ku.ac.th/">คณะวิทยาศาสตร์และวิศวกรรมศาสตร์</a></li>
+		<li id="menu-item-2136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2136"><a target="_blank" href="http://fam.csc.ku.ac.th/th/">คณะศิลปศาสตร์และวิทยาการจัดการ</a></li>
+		<li id="menu-item-2137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2137"><a target="_blank" href="http://fph.csc.ku.ac.th/th/">คณะสาธารณสุขศาสตร์</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2131"><a href="#">สายสนับสนุน</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2139"><a target="_blank" href="http://occ.csc.ku.ac.th">สำนักงานวิทยาเขตฯ</a>
+		<ul class="sub-menu">
+			<li id="menu-item-2140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2140"><a target="_blank" href="https://occ.csc.ku.ac.th/dca/">กองบริหารทั่วไป</a></li>
+			<li id="menu-item-2141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2141"><a target="_blank" href="https://occ.csc.ku.ac.th/das/">กองบริหารวิชาการและนิสิต</a></li>
+			<li id="menu-item-2142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2142"><a target="_blank" href="https://occ.csc.ku.ac.th/dra/">กองบริหารการวิจัยและบริการวิชาการ</a></li>
+			<li id="menu-item-2143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2143"><a target="_blank" href="https://occ.csc.ku.ac.th/dcs">กองบริการกลาง</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-2132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2132"><a href="#">มหาวิทยาลัย</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2144"><a target="_blank" href="http://www.ku.ac.th">วิทยาเขตบางเขน</a></li>
+		<li id="menu-item-2145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2145"><a target="_blank" href="http://www.kps.ku.ac.th/">วิทยาเขตกำแพงแสน</a></li>
+		<li id="menu-item-2146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2146"><a target="_blank" href="http://www.src.ku.ac.th/">วิทยาเขตศรีราชา</a></li>
+		<li id="menu-item-2147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2147"><a target="_blank" href="https://www.csc.ku.ac.th">วิทยาเขตเฉลิมพระเกียรติฯ</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2133"><a href="#">หน่วยงานบริการหลัก</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2829" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2829"><a target="_blank" href="https://occ.csc.ku.ac.th/reg">งานทะเบียนและประมวลผล</a></li>
+		<li id="menu-item-8741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8741"><a target="_blank" href="https://sites.google.com/ku.th/dascsc">งานบริการการศึกษา</a></li>
+		<li id="menu-item-2830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2830"><a target="_blank" href="https://sites.google.com/ku.th/sa-kucsc/">งานกิจการนิสิต</a></li>
+		<li id="menu-item-7982" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7982"><a href="https://lib.csc.ku.ac.th/">ห้องสมุด</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div>				
+						
+			</div>
+			
+		</nav>
+	
+				
+		<div class="nav-search -search">
+					
+			<div class="search-overlay">
+				<a href="#" title="ค้นหา" class="search-icon"><i class="fa fa-search"></i></a>
+				
+		<div class="search">
+			<form role="search" action="https://www.csc.ku.ac.th/th/" method="get">
+				<input type="text" name="s" class="query live-search-query" value="" placeholder="ค้นหาข้อมูล..."/>
+				<button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div> <!-- .search -->			</div>
+		</div>
+		
+				
+	</div>
+</div>				
+							
+		</div>
+		
+				
+	</div>	
+	<div class="breadcrumbs-wrap">
+		
+		<div class="wrap">
+				</div>
+		
+	</div>
+
+<div class="main-featured"><div class="wrap cf">
+			<!-- START quickly REVOLUTION SLIDER 6.5.7 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_12_1_wrapper" data-source="gallery" style="visibility:hidden;background:#f2f2f2;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;max-width:;">
+				<rs-module id="rev_slider_12_1" style="" data-version="6.5.7">
+					<rs-slides>
+						<rs-slide style="position: absolute;" data-key="rs-211" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/ขึ้นเว็บ-รับปริญญา-68-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ขึ้นเว็บ รับปริญญา 68" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/ขึ้นเว็บ-รับปริญญา-68.jpg" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-217" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/Untitled-2-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="Untitled 2" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/Untitled-2.jpg" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-215" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/08/ผ่อนผันทหาร-68-copy-100x50.jpg" data-link="//drive.google.com/file/d/1r8lMoyoUPUkY9Vudj90hJkx0039xfTPq/view?usp=sharing" data-target="_self" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ผ่อนผันทหาร 68 Copy" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/08/ผ่อนผันทหาร-68-copy.jpg" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-216" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/547759818_2181705008976451_3696703479069766123_n-100x50.jpg" data-link="//www.facebook.com/photo?fbid=1266707178591105&set=pcb.1266707485257741" data-target="_self" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="547759818 2181705008976451 3696703479069766123 N" width="1694" height="673" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/547759818_2181705008976451_3696703479069766123_n.jpg" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-210" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ขึ้นเว็บ Copy (1)" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1.jpg" data-no-retina>
+<!---->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_12_1',rl:[1240,1024,778,480],el:[450],gw:[1128],gh:[450],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider121"]!==undefined) {window.RS_MODULES.modules["revslider121"].once = false;window.revapi12 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div></div>
+
+<div class="main wrap cf">
+
+	<div class="row">
+		<div class="col-8 main-content">
+			
+			
+			<div id="post-2832" class="page-content post-2832 page type-page status-publish">
+
+					
+						
+					
+			
+		
+					
+							
+			
+<section class="block-wrap news-focus" data-id="1">
+	
+			
+		
+					
+			<div class="section-head prominent heading cat-text-48">
+				<h3 class="heading"><a href="https://www.csc.ku.ac.th/th/?cat=48">Unseen นนทรีอีสาน</a></h3>
+									
+						
+		<ul class="subcats filters">
+			<li><a href="#" data-id="0" class="active">ทั้งหมด:</a></li>
+			<li><a href="https://www.csc.ku.ac.th/th/?cat=48" data-id="48">Unseen นนทรีอีสาน</a></li>		</ul>
+		
+		
+			</div>
+			
+				
+				
+	<div class="block-content">
+
+		<div class="row b-row highlights">
+
+			<div class="column half b-col blocks">
+			
+							
+				<article>
+						
+					<a href="https://www.csc.ku.ac.th/th/?p=2437" title="ซุ้มประตูพญานาค สัญลักษณ์แห่งความอุดมสมบูรณ์" class="image-link">
+						<img fetchpriority="high" decoding="async" width="351" height="185" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2016/09/KAI_1926-351x185.jpg" class="image wp-post-image" alt="" title="ซุ้มประตูพญานาค สัญลักษณ์แห่งความอุดมสมบูรณ์" />						
+													<span class="post-format-icon gallery"><i class="fa fa-picture-o"></i></span>
+												
+											</a>
+					
+								<div class="cf listing-meta meta above">
+					
+				<time datetime="2016-09-15T07:21:23+07:00" class="meta-item">15/09/2016</time><span class="meta-item comments"><a href="https://www.csc.ku.ac.th/th/?p=2437#respond"><i class="fa fa-comments-o"></i> 0</a></span>					
+			</div>
+							
+					<h2 class="post-title"><a href="https://www.csc.ku.ac.th/th/?p=2437" title="ซุ้มประตูพญานาค สัญลักษณ์แห่งความอุดมสมบูรณ์">ซุ้มประตูพญานาค สัญลักษณ์แห่งความอุดมสมบูรณ์</a></h2>
+					
+										
+					<div class="excerpt">
+						<p>ซุ้มพญานาค ซุ้มประตูทางเข้ามหาวิทยาลัย ได้ออกแบบเป็นรูปพญานาค 2 ตัว ชูสัญลักษณ์ของวิทยาเขตมีประตูทางเข้าและออกกว้างด้านละ 5 เมตร และมีรั้วตามรูปแบบของรั้วที่บางเขน ยาวด้านละ 100 เมตร รั้วโดยรอบพื้นที่&hellip;</p>
+					</div>
+					
+				</article>
+				
+							
+			</div>
+			
+			
+			<ul class="column half b-col block posts-list thumb">
+	
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=2445"><img decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2016/09/IMG_124-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="อ่างสกลนคร แหล่งน้ำหล่อเลี้ยงชาวนนทรีอีสาน" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2016-09-15T07:30:22+07:00" class="meta-item">15/09/2016</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=2445" title="อ่างสกลนคร แหล่งน้ำหล่อเลี้ยงชาวนนทรีอีสาน">
+								อ่างสกลนคร แหล่งน้ำหล่อเลี้ยงชาวนนทรีอีสาน</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=2448"><img decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2016/09/12814025_990730580997774_4116708570529443152_n-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="อุทยานบัวเฉลิมพระเกียรติ แหล่งท่องเที่ยวสกลนคร" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2016-09-15T07:31:32+07:00" class="meta-item">15/09/2016</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=2448" title="อุทยานบัวเฉลิมพระเกียรติ แหล่งท่องเที่ยวสกลนคร">
+								อุทยานบัวเฉลิมพระเกียรติ แหล่งท่องเที่ยวสกลนคร</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=2453"><img loading="lazy" decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2016/09/1075550_499573230113514_1638284999_o-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="พระพิรุณทรงนาค เทพแห่งฝนที่ทรงนำความสมบูรณ์มาให้แก่พืชพรรณธัญญาหาร" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2016-09-15T07:34:46+07:00" class="meta-item">15/09/2016</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=2453" title="พระพิรุณทรงนาค เทพแห่งฝนที่ทรงนำความสมบูรณ์มาให้แก่พืชพรรณธัญญาหาร">
+								พระพิรุณทรงนาค เทพแห่งฝนที่ทรงนำความสมบูรณ์มาให้แก่พืชพรรณธัญญาหาร</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+			</ul>
+				
+						
+		</div>
+	
+	</div> <!-- .block-content -->
+		
+</section><div class="row cf builder">
+			
+		
+					
+							<div class="column builder one-1">
+							
+					
+			<div class="textwidget post-content">
+				<h2>ข่าวจ้างเหมา/ประกวดราคา <a href="https://www.csc.ku.ac.th/th/?page_id=8867">(ดูทั้งหมด)</a></h2><p><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="https://www.csc.ku.ac.th/th/?p=10731">ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10729">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10726">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10724">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10711">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10708">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10706">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุยานพาหนะและขนส่ง (รถจักยานยนต์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10704">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุงานบ้านงานครัว จำนวน 3 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10702">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 8 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10700">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 29 รายการ</a>  08/09/2025</li></ul></p>			</div>
+			
+					
+			 </div> 			
+					
+					</div>
+			
+		
+				
+			
+		
+					
+							
+			
+<section class="block-wrap news-focus" data-id="2">
+	
+			
+		
+					
+			<div class="section-head prominent heading cat-text-38">
+				<h3 class="heading"><a href="https://www.csc.ku.ac.th/th/?cat=38">แนะนำวิทยาเขต</a></h3>
+									
+						
+		<ul class="subcats filters">
+			<li><a href="#" data-id="0" class="active">ทั้งหมด:</a></li>
+			<li><a href="https://www.csc.ku.ac.th/th/?cat=38" data-id="38">แนะนำวิทยาเขต</a></li>
+<li><a href="https://www.csc.ku.ac.th/th/?cat=50" data-id="50">วนานันทอุทยาน</a></li>
+<li><a href="https://www.csc.ku.ac.th/th/?cat=51" data-id="51">อาคารและภูมิสถาปัตย์</a></li>		</ul>
+		
+		
+			</div>
+			
+				
+				
+	<div class="block-content">
+
+		<div class="row b-row highlights">
+
+			<div class="column half b-col blocks">
+			
+							
+				<article>
+						
+					<a href="https://www.csc.ku.ac.th/th/?p=8133" title="ข้าวฮาง ความสุขที่ยั่งยืนจากรุ่นสู่รุ่น" class="image-link">
+						<img loading="lazy" decoding="async" width="351" height="185" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2022/11/โปสเตอร์-ข้าว1-90x195-copy-2-351x185.jpg" class="image wp-post-image" alt="" title="ข้าวฮาง ความสุขที่ยั่งยืนจากรุ่นสู่รุ่น" />						
+												
+											</a>
+					
+								<div class="cf listing-meta meta above">
+					
+				<time datetime="2022-11-23T14:57:36+07:00" class="meta-item">23/11/2022</time><span class="meta-item comments"><a href="https://www.csc.ku.ac.th/th/?p=8133#respond"><i class="fa fa-comments-o"></i> 0</a></span>					
+			</div>
+							
+					<h2 class="post-title"><a href="https://www.csc.ku.ac.th/th/?p=8133" title="ข้าวฮาง ความสุขที่ยั่งยืนจากรุ่นสู่รุ่น">ข้าวฮาง ความสุขที่ยั่งยืนจากรุ่นสู่รุ่น</a></h2>
+					
+										
+					<div class="excerpt">
+											</div>
+					
+				</article>
+				
+							
+			</div>
+			
+			
+			<ul class="column half b-col block posts-list thumb">
+	
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=7228"><img loading="lazy" decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2022/11/demopost2-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="ค่านิยมหลัก (Core Value) ตามแผนยุทธศาสตร์" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2021-06-30T13:39:08+07:00" class="meta-item">30/06/2021</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=7228" title="ค่านิยมหลัก (Core Value) ตามแผนยุทธศาสตร์">
+								ค่านิยมหลัก (Core Value) ตามแผนยุทธศาสตร์</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=7038"><img loading="lazy" decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2021/02/IMG_9606-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="อาคาร 22 อาคารปฏิบัติการและวิจัยทางวิทยาศาสตร์" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2021-02-22T14:20:00+07:00" class="meta-item">22/02/2021</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=7038" title="อาคาร 22 อาคารปฏิบัติการและวิจัยทางวิทยาศาสตร์">
+								อาคาร 22 อาคารปฏิบัติการและวิจัยทางวิทยาศาสตร์</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+								
+					<li>
+					
+						<a href="https://www.csc.ku.ac.th/th/?p=7035"><img loading="lazy" decoding="async" width="110" height="96" src="https://www.csc.ku.ac.th/th/wp-content/uploads/2021/02/IMG_9577-Pano-Edit-110x96.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" title="อาคาร 21 อาคารปฏิบัติการด้านทรัพยากรสิ่งแวดล้อม" />	
+												
+						</a>
+						
+						<div class="content">
+	
+										<div class="cf listing-meta above">
+					
+				<time datetime="2021-02-22T14:15:11+07:00" class="meta-item">22/02/2021</time>					
+			</div>
+								
+							<a href="https://www.csc.ku.ac.th/th/?p=7035" title="อาคาร 21 อาคารปฏิบัติการด้านทรัพยากรสิ่งแวดล้อม">
+								อาคาร 21 อาคารปฏิบัติการด้านทรัพยากรสิ่งแวดล้อม</a>
+								
+															
+						</div>
+						
+					</li>
+				
+							
+						
+			</ul>
+				
+						
+		</div>
+	
+	</div> <!-- .block-content -->
+		
+</section><div class="row cf builder">
+			
+		
+					
+							<div class="column builder one-1">
+							
+					
+			<div class="textwidget post-content">
+				<h2>ข่าวรับสมัครงาน <a href="https://www.csc.ku.ac.th/th/?page_id=8869">(ดูทั้งหมด)</a></h2><p><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="https://www.csc.ku.ac.th/th/?p=10722">ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10718">ประกาศรายชื่อผู้มีสิทธิ์เข้าสอบภาคความเหมาะสมกับตำแหน่ง (สอบสัมภาษณ์) ตำแหน่งนักวิชาการคอมพิวเตอร์ ระดับปฏิบัติการ</a>  17/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10667">รับสมัครคัดเลือกเพื่อจ้างและแต่งตั้งบุคคลเข้าเป็นพนักงานมหาวิทยาลัยเงินรายได้ (เพิ่มเติม)</a>  04/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10665">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการสอบคัดเลือกเพื่อจ้างและแต่งตั้งบุคคลเข้าเป้นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ จำนวน 3 ตำแหน่ง 5 อัตรา</a>  04/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10663">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการสอบคัดเลือกตำแหน่งนักวิชาการคอมพิวเตอร์ สังกัดคณะวิทยาศาสตรืและวิศวกรรมศาสตร์</a>  04/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10661">ประกาศรับสมัครคัดเลือกพนักงานมหาวิทยาลัยกลุ่มวิชาการ ประเภทคณาจารย์ประจำ สังกัดคณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร จำนวน 2 อัตรา</a>  04/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10659">ประกาศรายชื่อผู้เข้ารับการทดสอบทางด้านจิตวิทยา คณะสาธารณสุขศาสตร์ ภาควิชาอนามัยชุมชน</a>  04/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10629">ประกาศรับสมัครบุคคลเพื่อคัดเลือกเป็นพนักงานมหาวิทยาลัย ตำแหน่งอาจารย์ สังกัดคณะศิลปศาสตร์และวิทยาการจัดการ ภาควิชาภาษาอังกฤษ จำนวน 2 อัตรา</a>  28/08/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10589">รายชื่อผู้มิสิทธิ์เข้ารับการพิจารณาคัดเลือกพนักงานมหาวิทยาลัยกลุ่มวิชาการ ประเภทคณาจารย์ประจำ สังกัดสาขาสาธารณสุขศาสตร์ ภาควิชาอนามัยชุมชน</a>  22/08/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10518">ประกาศรับสมัครคัดเลือกเพื่อจ้างและแต่งตั้งบุคคลเข้าเป้นพนักงานมหาวิทยาลัยเงินรายได้ ตำแหน่งนักวิชาการคอมพิวเตอร์ สังกัดคณะวิทยาศาสตร์และวิศวกรรมศาสตร์</a>  05/08/2025</li></ul></p>			</div>
+			
+					
+			 </div> 			
+					
+					</div>
+			
+		
+		
+
+			</div>
+			
+		</div>
+		
+		
+			
+		
+		
+		<aside class="col-4 sidebar">
+		
+					<div class="">
+			
+				<ul>
+				
+				<li id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><a href="https://line.me/R/ti/p/@541vvlud?from=page&liff.referrer=https%3A%2F%2Fl.facebook.com%2F&accountId=541vvlud&fbclid=IwAR0HU_TtBNmelw_tm6iz6C31O3U0LAS6Em_jwNhhefNZ2l2Hf8N2U-fzGHU" target="_blank"><img src="https://www.csc.ku.ac.th/th/wp-content/uploads/2023/09/vpcsc.jpg" width="100%"></a>
+<a href="https://www.csc.ku.ac.th/th/?page_id=8763"><img src="https://www.csc.ku.ac.th/th/wp-content/uploads/2024/03/sprob.png"></a></div></li>
+<li id="listcategorypostswidget-3" class="widget widget_listcategorypostswidget"><h3 class="widgettitle">จดหมายข่าว</h3><ul class="lcp_catlist" id="lcp_instance_listcategorypostswidget-3"><li><a href="https://www.csc.ku.ac.th/th/?p=9955">จดหมายข่าว มก.ฉกส ประจำปีการศึกษา 2568</a></li><li><a href="https://www.csc.ku.ac.th/th/?p=8896">จดหมายข่าว มก.ฉกส ประจำปีการศึกษา 2567</a></li><li><a href="https://www.csc.ku.ac.th/th/?p=8357">จดหมายข่าว มก.ฉกส ประจำปีการศึกษา 2566</a></li></ul><a href="https://www.csc.ku.ac.th/th/?cat=60"> </a></li>
+<li id="listcategorypostswidget-5" class="widget widget_listcategorypostswidget"><h3 class="widgettitle">คู่มือจัดซื้อ/จัดจ้าง</h3><ul class="lcp_catlist" id="lcp_instance_listcategorypostswidget-5"><li><a href="https://www.csc.ku.ac.th/th/?p=10490">คู่มือจัดซื้อ/จัดจ้าง</a></li></ul><a href="https://www.csc.ku.ac.th/th/?cat=86"> </a></li>
+
+		<li id="recent-posts-2" class="widget widget_recent_entries">
+		<h3 class="widgettitle">ข่าว/กิจกรรมล่าสุด</h3>
+		<ul>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10731">ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10729">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10726">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10724">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10722">ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10718">ประกาศรายชื่อผู้มีสิทธิ์เข้าสอบภาคความเหมาะสมกับตำแหน่ง (สอบสัมภาษณ์) ตำแหน่งนักวิชาการคอมพิวเตอร์ ระดับปฏิบัติการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10711">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10708">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10706">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุยานพาหนะและขนส่ง (รถจักยานยนต์) จำนวน 5 รายการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10704">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุงานบ้านงานครัว จำนวน 3 รายการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10702">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 8 รายการ</a>
+									</li>
+											<li>
+					<a href="https://www.csc.ku.ac.th/th/?p=10700">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 29 รายการ</a>
+									</li>
+					</ul>
+
+		</li>
+		
+				</ul>
+		
+			</div>
+		
+		</aside>
+		
+			
+	</div> <!-- .row -->
+</div> <!-- .main -->
+
+
+		
+	<footer class="main-footer">
+	
+			<div class="wrap">
+		
+					<ul class="widgets row cf">
+				
+		<li class="widget col-4 bunyad-about">			<h3 class="widgettitle">ที่อยู่/ติดต่อสอบถาม</h3>		
+			<div class="about-widget">
+			
+							<img src="https://www.csc.ku.ac.th/th/wp-content/uploads/2022/11/kucsclogo80w-01.svg" />			
+						
+			<p>มหาวิทยาลัยเกษตรศาสตร์<br />
+วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร<br />
+59 หมู่ 1 ถ.วปรอ 366 ต.เชียงเครือ อ.เมือง จ.สกลนคร 47000 โทรศัพท์ 061-0287788</p>
+			
+			</div>
+		
+		</li>		
+		
+		<li class="widget col-4 bunyad-about">			<h3 class="widgettitle">ติดต่อหน่วยงานภายใน</h3>		
+			<div class="about-widget">
+			
+						
+			<p>061-0287788 : ประชาสัมพันธ์และวิเทศสัมพันธ์<br />
+081-7391745 : งานทะเบียนและประมวลผล<br />
+086-2241118 : หน่วยแนะแนวและรับเข้า (ตรี/โท)<br />
+098-4854435 : ทุน กยศ. และ กรอ.<br />
+088-5108007 : หน่วยหอพักนิสิต<br />
+042-725042 ต่อ 5503 : งานเทคโนโลยีสารสนเทศ<br />
+042-725093 : ห้องสมุด </p>
+			
+			</div>
+		
+		</li>		
+					</ul>
+				
+		</div>
+	
+		
+	
+			<div class="lower-foot">
+			<div class="wrap">
+		
+					
+			</div>
+		</div>		
+		
+	</footer>
+	
+</div> <!-- .main-wrap -->
+
+
+		<script type="text/javascript">
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		
+<div class="dpdpa--popup">
+    <div class="container">
+        <div class="dpdpa--popup-container">
+            <div class="dpdpa--popup-text">                
+                <p>เราใช้คุกกี้เพื่อพัฒนาประสิทธิภาพ และประสบการณ์ที่ดีในการใช้เว็บไซต์ของคุณ คุณสามารถศึกษารายละเอียดได้ที่ <a href="https://www.csc.ku.ac.th/th/?page_id=7833">นโยบายความเป็นส่วนตัว</a> และสามารถจัดการความเป็นส่วนตัวเองได้ของคุณได้เองโดยคลิกที่ <a href="#" class="dpdpa--popup-settings">ตั้งค่า</a></p>
+            </div>
+            <div class="dpdpa--popup-button-group">
+                <a href="#" class="dpdpa--popup-button" id="dpdpa--popup-accept-all">ยอมรับ</a>
+            </div>
+            <a href="#" class="dpdpa--popup-close" id="dpdpa--popup-close"></a>
+        </div>
+    </div>
+</div><div class="dpdpa--popup-bg"></div>
+<div class="dpdpa--popup-sidebar">
+    <div class="dpdpa--popup-sidebar-header">
+        <div class="dpdpa--popup-logo">
+                    </div>
+        <a href="#" class="dpdpa--popup-settings-close" id="dpdpa--popup-settings-close"></a>
+    </div>
+    <div class="dpdpa--popup-sidebar-container">
+        <div class="dpdpa--popup-section intro">
+            <em>ตั้งค่าความเป็นส่วนตัว</em>
+            <p>คุณสามารถเลือกการตั้งค่าคุกกี้โดยเปิด/ปิด คุกกี้ในแต่ละประเภทได้ตามความต้องการ ยกเว้น คุกกี้ที่จำเป็น</p>
+            <a href="#" class="dpdpa--popup-button" id="pdpa_settings_allow_all">ยอมรับทั้งหมด</a>
+        </div>
+        <div class="dpdpa--popup-section list">            
+            <em>จัดการความเป็นส่วนตัว</em>
+            <ul class="dpdpa--popup-list" id="dpdpa--popup-list">
+                <li>
+                    <div class="dpdpa--popup-header">
+                        <div class="dpdpa--popup-title"></div>
+                        <div class="dpdpa--popup-action text">เปิดใช้งานตลอด</div>
+                    </div>
+                    <p></p>
+                </li>
+                                                
+            </ul>
+            <a href="#" class="dpdpa--popup-button" id="pdpa_settings_confirm">บันทึกการตั้งค่า</a>
+        </div>
+    </div>
+</div><link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+			<link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="https://www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.7' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+		#rev_slider_12_1_wrapper .custom.tparrows{cursor:pointer;background:#000;background:rgba(0,0,0,0.5);width:40px;height:40px;position:absolute;display:block;z-index:1000}#rev_slider_12_1_wrapper .custom.tparrows.rs-touchhover{background:#000}#rev_slider_12_1_wrapper .custom.tparrows:before{font-family:'revicons';font-size:15px;color:#fff;display:block;line-height:40px;text-align:center}#rev_slider_12_1_wrapper .custom.tparrows.tp-leftarrow:before{content:'\e824'}#rev_slider_12_1_wrapper .custom.tparrows.tp-rightarrow:before{content:'\e825'}
+</style>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-includes/js/comment-reply.min.js?ver=6.8.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.6" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.csc.ku.ac.th\/th\/index.php?rest_route=\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/pdpa-thailand/public/assets/js/js-cookie.min.js?ver=1.2.3" id="pdpa-thailand-js-cookie-js"></script>
+<script type="text/javascript" id="pdpa-thailand-public-js-extra">
+/* <![CDATA[ */
+var pdpa_thailand = {"url":"https:\/\/www.csc.ku.ac.th\/th\/wp-admin\/admin-ajax.php","nonce":"86b9a02487","unique_id":"pdpa_629048fc3aa33","enable":"1","duration":"7","cookie_list":"{\"code_in_head\":\"\",\"code_next_body\":\"\",\"code_body_close\":\"\"}"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/pdpa-thailand/public/assets/js/pdpa-thailand-public.js?ver=1.2.3" id="pdpa-thailand-public-js"></script>
+<script type="text/javascript" id="bunyad-theme-js-extra">
+/* <![CDATA[ */
+var Bunyad = {"ajaxurl":"https:\/\/www.csc.ku.ac.th\/th\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/js/bunyad-theme.js?ver=3.4.0" id="bunyad-theme-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/js/jquery.flexslider-min.js?ver=3.4.0" id="flex-slider-js"></script>
+<script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/themes/smm-old/js/jquery.sticky-sidebar.min.js?ver=3.4.0" id="sticky-sidebar-js"></script>
+<script type="text/javascript" id="rs-initialisation-scripts">
+		var	tpj = jQuery;
+
+		var	revapi12;
+
+		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+		RS_MODULES.modules["revslider121"] = {init:function() {
+			window.revapi12 = window.revapi12===undefined || window.revapi12===null || window.revapi12.length===0  ? document.getElementById("rev_slider_12_1") : window.revapi12;
+			if(window.revapi12 === null || window.revapi12 === undefined || window.revapi12.length==0) { window.revapi12initTry = window.revapi12initTry ===undefined ? 0 : window.revapi12initTry+1; if (window.revapi12initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider121"].init()}); return;}
+			window.revapi12 = jQuery(window.revapi12);
+			if(window.revapi12.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_12_1"); return;}
+			revapi12.revolutionInit({
+					revapi:"revapi12",
+					DPR:"dpr",
+					duration:3000,
+					visibilityLevels:"1240,1024,778,480",
+					gridwidth:1128,
+					gridheight:450,
+					lazyType:"smart",
+					spinner:"spinner0",
+					perspective:600,
+					perspectiveType:"local",
+					editorheight:"450,768,960,720",
+					responsiveLevels:"1240,1024,778,480",
+					progressBar: {
+						color:"rgba(0,0,0,0.15)",
+						vertical:"top",
+						size:5,
+						x:0,
+						y:0
+						},
+					navigation: {
+						mouseScrollNavigation:false,
+						wheelCallDelay:1000,
+						touch: {
+							touchenabled:true
+						},
+						arrows: {
+							enable:true,
+							style:"custom",
+							left: {
+
+							},
+							right: {
+
+							}
+						}
+					},
+					viewPort: {
+						global:true,
+						globalDist:"-200px",
+						enable:false,
+						visible_area:"20%"
+					},
+					fallbacks: {
+						allowHTML5AutoPlayOnAndroid:true
+					},
+			});
+			
+		}} // End of RevInitScript
+
+		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+	</script>
+		
+		<script>
+			// Preloaded sub-block content
+			var bunyad_preload = {"1":{"48":"<section class=\"block-wrap news-focus\" data-id=\"3\"><div class=\"section-head prominent heading\"><h3 class=\"heading\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?cat=48\">unseen-%e0%b8%99%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b8%b5%e0%b8%ad%e0%b8%b5%e0%b8%aa%e0%b8%b2%e0%b8%99<\/a><\/h3><\/div><div class=\"block-content\"><div class=\"row b-row highlights\"><div class=\"column half b-col blocks\"><article><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2437\" title=\"\u0e0b\u0e38\u0e49\u0e21\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 \u0e2a\u0e31\u0e0d\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e2d\u0e38\u0e14\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\" class=\"image-link\"><img width=\"351\" height=\"185\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/KAI_1926-351x185.jpg\" class=\"image wp-post-image\" alt=\"\" title=\"\u0e0b\u0e38\u0e49\u0e21\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 \u0e2a\u0e31\u0e0d\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e2d\u0e38\u0e14\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\" decoding=\"async\" loading=\"lazy\" \/><span class=\"post-format-icon gallery\"><i class=\"fa fa-picture-o\"><\/i><\/span><\/a><div class=\"cf listing-meta meta above\"><time datetime=\"2016-09-15T07:21:23+07:00\" class=\"meta-item\">15\/09\/2016<\/time><span class=\"meta-item comments\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2437#respond\"><i class=\"fa fa-comments-o\"><\/i> 0<\/a><\/span><\/div><h2 class=\"post-title\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2437\" title=\"\u0e0b\u0e38\u0e49\u0e21\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 \u0e2a\u0e31\u0e0d\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e2d\u0e38\u0e14\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\">\u0e0b\u0e38\u0e49\u0e21\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 \u0e2a\u0e31\u0e0d\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e2d\u0e38\u0e14\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c<\/a><\/h2><div class=\"excerpt\"><p>\u0e0b\u0e38\u0e49\u0e21\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 \u0e0b\u0e38\u0e49\u0e21\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e17\u0e32\u0e07\u0e40\u0e02\u0e49\u0e32\u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22 \u0e44\u0e14\u0e49\u0e2d\u0e2d\u0e01\u0e41\u0e1a\u0e1a\u0e40\u0e1b\u0e47\u0e19\u0e23\u0e39\u0e1b\u0e1e\u0e0d\u0e32\u0e19\u0e32\u0e04 2 \u0e15\u0e31\u0e27 \u0e0a\u0e39\u0e2a\u0e31\u0e0d\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e02\u0e2d\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e40\u0e02\u0e15\u0e21\u0e35\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e17\u0e32\u0e07\u0e40\u0e02\u0e49\u0e32\u0e41\u0e25\u0e30\u0e2d\u0e2d\u0e01\u0e01\u0e27\u0e49\u0e32\u0e07\u0e14\u0e49\u0e32\u0e19\u0e25\u0e30 5 \u0e40\u0e21\u0e15\u0e23 \u0e41\u0e25\u0e30\u0e21\u0e35\u0e23\u0e31\u0e49\u0e27\u0e15\u0e32\u0e21\u0e23\u0e39\u0e1b\u0e41\u0e1a\u0e1a\u0e02\u0e2d\u0e07\u0e23\u0e31\u0e49\u0e27\u0e17\u0e35\u0e48\u0e1a\u0e32\u0e07\u0e40\u0e02\u0e19 \u0e22\u0e32\u0e27\u0e14\u0e49\u0e32\u0e19\u0e25\u0e30 100 \u0e40\u0e21\u0e15\u0e23 \u0e23\u0e31\u0e49\u0e27\u0e42\u0e14\u0e22\u0e23\u0e2d\u0e1a\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48&hellip;<\/p><\/div><\/article><\/div><ul class=\"column half b-col block posts-list thumb\"><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2445\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/IMG_124-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e48\u0e32\u0e07\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e19\u0e49\u0e33\u0e2b\u0e25\u0e48\u0e2d\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07\u0e0a\u0e32\u0e27\u0e19\u0e19\u0e17\u0e23\u0e35\u0e2d\u0e35\u0e2a\u0e32\u0e19\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-15T07:30:22+07:00\" class=\"meta-item\">15\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2445\" title=\"\u0e2d\u0e48\u0e32\u0e07\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e19\u0e49\u0e33\u0e2b\u0e25\u0e48\u0e2d\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07\u0e0a\u0e32\u0e27\u0e19\u0e19\u0e17\u0e23\u0e35\u0e2d\u0e35\u0e2a\u0e32\u0e19\">\u0e2d\u0e48\u0e32\u0e07\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e19\u0e49\u0e33\u0e2b\u0e25\u0e48\u0e2d\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07\u0e0a\u0e32\u0e27\u0e19\u0e19\u0e17\u0e23\u0e35\u0e2d\u0e35\u0e2a\u0e32\u0e19<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2448\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/12814025_990730580997774_4116708570529443152_n-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1a\u0e31\u0e27\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e17\u0e48\u0e2d\u0e07\u0e40\u0e17\u0e35\u0e48\u0e22\u0e27\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-15T07:31:32+07:00\" class=\"meta-item\">15\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2448\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1a\u0e31\u0e27\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e17\u0e48\u0e2d\u0e07\u0e40\u0e17\u0e35\u0e48\u0e22\u0e27\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23\">\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1a\u0e31\u0e27\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 \u0e41\u0e2b\u0e25\u0e48\u0e07\u0e17\u0e48\u0e2d\u0e07\u0e40\u0e17\u0e35\u0e48\u0e22\u0e27\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2453\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/1075550_499573230113514_1638284999_o-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e1e\u0e23\u0e30\u0e1e\u0e34\u0e23\u0e38\u0e13\u0e17\u0e23\u0e07\u0e19\u0e32\u0e04 \u0e40\u0e17\u0e1e\u0e41\u0e2b\u0e48\u0e07\u0e1d\u0e19\u0e17\u0e35\u0e48\u0e17\u0e23\u0e07\u0e19\u0e33\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\u0e21\u0e32\u0e43\u0e2b\u0e49\u0e41\u0e01\u0e48\u0e1e\u0e37\u0e0a\u0e1e\u0e23\u0e23\u0e13\u0e18\u0e31\u0e0d\u0e0d\u0e32\u0e2b\u0e32\u0e23\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-15T07:34:46+07:00\" class=\"meta-item\">15\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2453\" title=\"\u0e1e\u0e23\u0e30\u0e1e\u0e34\u0e23\u0e38\u0e13\u0e17\u0e23\u0e07\u0e19\u0e32\u0e04 \u0e40\u0e17\u0e1e\u0e41\u0e2b\u0e48\u0e07\u0e1d\u0e19\u0e17\u0e35\u0e48\u0e17\u0e23\u0e07\u0e19\u0e33\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\u0e21\u0e32\u0e43\u0e2b\u0e49\u0e41\u0e01\u0e48\u0e1e\u0e37\u0e0a\u0e1e\u0e23\u0e23\u0e13\u0e18\u0e31\u0e0d\u0e0d\u0e32\u0e2b\u0e32\u0e23\">\u0e1e\u0e23\u0e30\u0e1e\u0e34\u0e23\u0e38\u0e13\u0e17\u0e23\u0e07\u0e19\u0e32\u0e04 \u0e40\u0e17\u0e1e\u0e41\u0e2b\u0e48\u0e07\u0e1d\u0e19\u0e17\u0e35\u0e48\u0e17\u0e23\u0e07\u0e19\u0e33\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c\u0e21\u0e32\u0e43\u0e2b\u0e49\u0e41\u0e01\u0e48\u0e1e\u0e37\u0e0a\u0e1e\u0e23\u0e23\u0e13\u0e18\u0e31\u0e0d\u0e0d\u0e32\u0e2b\u0e32\u0e23<\/a><\/div><\/li><\/ul><\/div><\/div> <!-- .block-content --><\/section>"},"2":{"38":"<section class=\"block-wrap news-focus\" data-id=\"4\"><div class=\"section-head prominent heading\"><h3 class=\"heading\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?cat=38\">%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3%e0%b8%a7%e0%b8%b4%e0%b8%97%e0%b8%a2%e0%b8%b2%e0%b9%80%e0%b8%82%e0%b8%95<\/a><\/h3><\/div><div class=\"block-content\"><div class=\"row b-row highlights\"><div class=\"column half b-col blocks\"><article><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=8133\" title=\"\u0e02\u0e49\u0e32\u0e27\u0e2e\u0e32\u0e07 \u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02\u0e17\u0e35\u0e48\u0e22\u0e31\u0e48\u0e07\u0e22\u0e37\u0e19\u0e08\u0e32\u0e01\u0e23\u0e38\u0e48\u0e19\u0e2a\u0e39\u0e48\u0e23\u0e38\u0e48\u0e19\" class=\"image-link\"><img width=\"351\" height=\"185\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2022\/11\/\u0e42\u0e1b\u0e2a\u0e40\u0e15\u0e2d\u0e23\u0e4c-\u0e02\u0e49\u0e32\u0e271-90x195-copy-2-351x185.jpg\" class=\"image wp-post-image\" alt=\"\" title=\"\u0e02\u0e49\u0e32\u0e27\u0e2e\u0e32\u0e07 \u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02\u0e17\u0e35\u0e48\u0e22\u0e31\u0e48\u0e07\u0e22\u0e37\u0e19\u0e08\u0e32\u0e01\u0e23\u0e38\u0e48\u0e19\u0e2a\u0e39\u0e48\u0e23\u0e38\u0e48\u0e19\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"cf listing-meta meta above\"><time datetime=\"2022-11-23T14:57:36+07:00\" class=\"meta-item\">23\/11\/2022<\/time><span class=\"meta-item comments\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=8133#respond\"><i class=\"fa fa-comments-o\"><\/i> 0<\/a><\/span><\/div><h2 class=\"post-title\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=8133\" title=\"\u0e02\u0e49\u0e32\u0e27\u0e2e\u0e32\u0e07 \u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02\u0e17\u0e35\u0e48\u0e22\u0e31\u0e48\u0e07\u0e22\u0e37\u0e19\u0e08\u0e32\u0e01\u0e23\u0e38\u0e48\u0e19\u0e2a\u0e39\u0e48\u0e23\u0e38\u0e48\u0e19\">\u0e02\u0e49\u0e32\u0e27\u0e2e\u0e32\u0e07 \u0e04\u0e27\u0e32\u0e21\u0e2a\u0e38\u0e02\u0e17\u0e35\u0e48\u0e22\u0e31\u0e48\u0e07\u0e22\u0e37\u0e19\u0e08\u0e32\u0e01\u0e23\u0e38\u0e48\u0e19\u0e2a\u0e39\u0e48\u0e23\u0e38\u0e48\u0e19<\/a><\/h2><div class=\"excerpt\"><\/div><\/article><\/div><ul class=\"column half b-col block posts-list thumb\"><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7228\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2022\/11\/demopost2-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e04\u0e48\u0e32\u0e19\u0e34\u0e22\u0e21\u0e2b\u0e25\u0e31\u0e01 (Core Value) \u0e15\u0e32\u0e21\u0e41\u0e1c\u0e19\u0e22\u0e38\u0e17\u0e18\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-06-30T13:39:08+07:00\" class=\"meta-item\">30\/06\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7228\" title=\"\u0e04\u0e48\u0e32\u0e19\u0e34\u0e22\u0e21\u0e2b\u0e25\u0e31\u0e01 (Core Value) \u0e15\u0e32\u0e21\u0e41\u0e1c\u0e19\u0e22\u0e38\u0e17\u0e18\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\">\u0e04\u0e48\u0e32\u0e19\u0e34\u0e22\u0e21\u0e2b\u0e25\u0e31\u0e01 (Core Value) \u0e15\u0e32\u0e21\u0e41\u0e1c\u0e19\u0e22\u0e38\u0e17\u0e18\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7038\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/IMG_9606-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-02-22T14:20:00+07:00\" class=\"meta-item\">22\/02\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7038\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\">\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7035\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/IMG_9577-Pano-Edit-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-02-22T14:15:11+07:00\" class=\"meta-item\">22\/02\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7035\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21\">\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21<\/a><\/div><\/li><\/ul><\/div><\/div> <!-- .block-content --><\/section>","50":"<section class=\"block-wrap news-focus\" data-id=\"5\"><div class=\"section-head prominent heading\"><h3 class=\"heading\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?cat=50\">%e0%b8%a7%e0%b8%99%e0%b8%b2%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%ad%e0%b8%b8%e0%b8%97%e0%b8%a2%e0%b8%b2%e0%b8%99<\/a><\/h3><\/div><div class=\"block-content\"><div class=\"row b-row highlights\"><div class=\"column half b-col blocks\"><article><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2509\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e16\u0e34\u0e48\u0e19\u0e21\u0e31\u0e48\u0e19\u0e43\u0e19\u0e1e\u0e38\u0e17\u0e18\u0e18\u0e23\u0e23\u0e21\" class=\"image-link\"><img width=\"351\" height=\"185\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/DSC_0075-351x185.jpg\" class=\"image wp-post-image\" alt=\"\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e16\u0e34\u0e48\u0e19\u0e21\u0e31\u0e48\u0e19\u0e43\u0e19\u0e1e\u0e38\u0e17\u0e18\u0e18\u0e23\u0e23\u0e21\" decoding=\"async\" loading=\"lazy\" \/><span class=\"post-format-icon gallery\"><i class=\"fa fa-picture-o\"><\/i><\/span><\/a><div class=\"cf listing-meta meta above\"><time datetime=\"2016-09-21T04:50:18+07:00\" class=\"meta-item\">21\/09\/2016<\/time><span class=\"meta-item comments\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2509#respond\"><i class=\"fa fa-comments-o\"><\/i> 0<\/a><\/span><\/div><h2 class=\"post-title\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2509\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e16\u0e34\u0e48\u0e19\u0e21\u0e31\u0e48\u0e19\u0e43\u0e19\u0e1e\u0e38\u0e17\u0e18\u0e18\u0e23\u0e23\u0e21\">\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e16\u0e34\u0e48\u0e19\u0e21\u0e31\u0e48\u0e19\u0e43\u0e19\u0e1e\u0e38\u0e17\u0e18\u0e18\u0e23\u0e23\u0e21<\/a><\/h2><div class=\"excerpt\"><p>\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e16\u0e34\u0e48\u0e19\u0e21\u0e31\u0e48\u0e19\u0e43\u0e19\u0e1e\u0e38\u0e17\u0e18\u0e18\u0e23\u0e23\u0e21 \u0e40\u0e1b\u0e47\u0e19\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e2b\u0e25\u0e31\u0e07\u0e17\u0e35\u0e48\u0e2a\u0e34\u0e1a\u0e2b\u0e49\u0e32 \u0e15\u0e31\u0e49\u0e07\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e1a\u0e23\u0e34\u0e40\u0e27\u0e13\u0e40\u0e2b\u0e19\u0e37\u0e2d\u0e2d\u0e48\u0e32\u0e07\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23 \u0e1a\u0e19\u0e1e\u0e37\u0e49\u0e19\u0e17\u0e35\u0e48\u0e1b\u0e23\u0e30\u0e21\u0e32\u0e13 20 \u0e44\u0e23\u0e48 \u0e07\u0e1a\u0e1b\u0e23\u0e30\u0e21\u0e32\u0e13\u0e01\u0e32\u0e23\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07 6,000,000.00 \u0e1a\u0e32\u0e17 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48 3 \u0e1e\u0e24\u0e29\u0e20\u0e32\u0e04\u0e21 \u0e1e.\u0e28. 2548 \u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e41\u0e25\u0e49\u0e27\u0e40\u0e2a\u0e23\u0e47\u0e08\u0e27\u0e31\u0e19\u0e17&hellip;<\/p><\/div><\/article><\/div><ul class=\"column half b-col block posts-list thumb\"><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2504\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/prince-park-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e40\u0e01\u0e29\u0e15\u0e23 50 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e27\u0e0a\u0e34\u0e23\u0e32\u0e25\u0e07\u0e01\u0e23\u0e13\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-21T04:42:44+07:00\" class=\"meta-item\">21\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2504\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e40\u0e01\u0e29\u0e15\u0e23 50 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e27\u0e0a\u0e34\u0e23\u0e32\u0e25\u0e07\u0e01\u0e23\u0e13\">\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e40\u0e01\u0e29\u0e15\u0e23 50 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e27\u0e0a\u0e34\u0e23\u0e32\u0e25\u0e07\u0e01\u0e23\u0e13<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2499\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/queen-park-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e34\u0e17\u0e22\u0e32\u0e1b\u0e48\u0e32\u0e40\u0e15\u0e47\u0e07\u0e23\u0e31\u0e07\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 72 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e1a\u0e23\u0e21\u0e23\u0e32\u0e0a\u0e34\u0e19\u0e35\u0e19\u0e32\u0e16\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-21T04:20:46+07:00\" class=\"meta-item\">21\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2499\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e34\u0e17\u0e22\u0e32\u0e1b\u0e48\u0e32\u0e40\u0e15\u0e47\u0e07\u0e23\u0e31\u0e07\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 72 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e1a\u0e23\u0e21\u0e23\u0e32\u0e0a\u0e34\u0e19\u0e35\u0e19\u0e32\u0e16\">\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e27\u0e34\u0e17\u0e22\u0e32\u0e1b\u0e48\u0e32\u0e40\u0e15\u0e47\u0e07\u0e23\u0e31\u0e07\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34 72 \u0e1e\u0e23\u0e23\u0e29\u0e32 \u0e1a\u0e23\u0e21\u0e23\u0e32\u0e0a\u0e34\u0e19\u0e35\u0e19\u0e32\u0e16<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2494\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2016\/09\/ecotourism-127632-4-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e2b\u0e19\u0e2d\u0e07\u0e2b\u0e32\u0e23\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2016-09-21T04:13:35+07:00\" class=\"meta-item\">21\/09\/2016<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=2494\" title=\"\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e2b\u0e19\u0e2d\u0e07\u0e2b\u0e32\u0e23\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34\">\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e2b\u0e19\u0e2d\u0e07\u0e2b\u0e32\u0e23\u0e40\u0e09\u0e25\u0e34\u0e21\u0e1e\u0e23\u0e30\u0e40\u0e01\u0e35\u0e22\u0e23\u0e15\u0e34<\/a><\/div><\/li><\/ul><\/div><\/div> <!-- .block-content --><\/section>","51":"<section class=\"block-wrap news-focus\" data-id=\"6\"><div class=\"section-head prominent heading\"><h3 class=\"heading\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?cat=51\">%e0%b8%ad%e0%b8%b2%e0%b8%84%e0%b8%b2%e0%b8%a3%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%a0%e0%b8%b9%e0%b8%a1%e0%b8%b4%e0%b8%aa%e0%b8%96%e0%b8%b2%e0%b8%9b%e0%b8%b1%e0%b8%95%e0%b8%a2%e0%b9%8c<\/a><\/h3><\/div><div class=\"block-content\"><div class=\"row b-row highlights\"><div class=\"column half b-col blocks\"><article><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7038\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\" class=\"image-link\"><img width=\"351\" height=\"185\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/IMG_9606-351x185.jpg\" class=\"image wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"cf listing-meta meta above\"><time datetime=\"2021-02-22T14:20:00+07:00\" class=\"meta-item\">22\/02\/2021<\/time><span class=\"meta-item comments\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7038#respond\"><i class=\"fa fa-comments-o\"><\/i> 0<\/a><\/span><\/div><h2 class=\"post-title\"><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7038\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\">\u0e2d\u0e32\u0e04\u0e32\u0e23 22 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c<\/a><\/h2><div class=\"excerpt\"><p>\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e41\u0e25\u0e30\u0e27\u0e34\u0e08\u0e31\u0e22\u0e17\u0e32\u0e07\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c \u0e40\u0e1b\u0e47\u0e19\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e2b\u0e25\u0e31\u0e07\u0e17\u0e35\u0e48\u0e22\u0e35\u0e48\u0e2a\u0e34\u0e1a\u0e2a\u0e2d\u0e07\u00a0 \u0e2a\u0e39\u0e07 3 \u0e0a\u0e31\u0e49\u0e19 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48 27 \u0e01\u0e31\u0e19\u0e22\u0e32\u0e22\u0e19 \u0e1e.\u0e28. 2556 \u0e01\u0e48\u0e2d\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e41\u0e25\u0e49\u0e27\u0e40\u0e2a\u0e23\u0e47\u0e08\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48 12 \u0e01\u0e31\u0e19\u0e22\u0e32\u0e22\u0e19 \u0e1e.\u0e28. 2560\u00a0 \u00a0\u0e40\u0e1b\u0e47\u0e19\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e17\u0e35\u0e48\u0e43\u0e0a\u0e49\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e40\u0e23\u0e35\u0e22\u0e19\u0e01\u0e32\u0e23\u0e2a\u0e2d\u0e19 &hellip;<\/p><\/div><\/article><\/div><ul class=\"column half b-col block posts-list thumb\"><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7035\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/IMG_9577-Pano-Edit-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-02-22T14:15:11+07:00\" class=\"meta-item\">22\/02\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7035\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21\">\u0e2d\u0e32\u0e04\u0e32\u0e23 21 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e32\u0e01\u0e23\u0e2a\u0e34\u0e48\u0e07\u0e41\u0e27\u0e14\u0e25\u0e49\u0e2d\u0e21<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7030\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/DJI_002031-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 20 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-02-22T14:08:56+07:00\" class=\"meta-item\">22\/02\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7030\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 20 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\">\u0e2d\u0e32\u0e04\u0e32\u0e23 20 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e<\/a><\/div><\/li><li><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7025\"><img width=\"110\" height=\"96\" src=\"https:\/\/www.csc.ku.ac.th\/th\/wp-content\/uploads\/2021\/02\/DJI_00173-110x96.jpg\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" alt=\"\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 19 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e01\u0e32\u0e23\u0e01\u0e35\u0e2c\u0e32\" decoding=\"async\" loading=\"lazy\" \/><\/a><div class=\"content\"><div class=\"cf listing-meta above\"><time datetime=\"2021-02-22T11:30:13+07:00\" class=\"meta-item\">22\/02\/2021<\/time><\/div><a href=\"https:\/\/www.csc.ku.ac.th\/th\/?p=7025\" title=\"\u0e2d\u0e32\u0e04\u0e32\u0e23 19 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e01\u0e32\u0e23\u0e01\u0e35\u0e2c\u0e32\">\u0e2d\u0e32\u0e04\u0e32\u0e23 19 \u0e2d\u0e32\u0e04\u0e32\u0e23\u0e1b\u0e0f\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e01\u0e32\u0e23\u0e14\u0e49\u0e32\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e01\u0e32\u0e23\u0e01\u0e35\u0e2c\u0e32<\/a><\/div><\/li><\/ul><\/div><\/div> <!-- .block-content --><\/section>"}};
+		</script>
+		
+		
+</body>
+</html>
