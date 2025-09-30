@@ -57,7 +57,7 @@ jobs:
           else 
             # Create normalized version for comparison (ignore trivial changes)
             # Remove Set-Cookie headers and normalize nonce values in JavaScript
-            grep -v '^Set-Cookie:' state/headers.tmp > state/headers.normalized || touch state/headers.normalized
+            grep -v '^Set-Cookie:' state/headers.tmp > state/headers.normalized || true
             
             # Normalize body content: replace dynamic nonce values with placeholder
             # This prevents false positives from session tokens and nonces
@@ -94,10 +94,16 @@ jobs:
               sed -E 's/"nonce":"[^"]*"/"nonce":"NORMALIZED"/g' state/last.html > state/curr.normalized
               
               # Compute diff statistics
-              diff_lines=$(diff -u state/prev.normalized state/curr.normalized | wc -l || echo "0")
+              diff_output=$(diff -u state/prev.normalized state/curr.normalized 2>/dev/null || echo "")
               
               # Save diff for issue (limit to 100 lines to avoid huge issues)
-              diff -u state/prev.normalized state/curr.normalized 2>/dev/null | head -n 100 > state/diff.txt || echo "No previous version to compare" > state/diff.txt
+              if [ -n "$diff_output" ]; then
+                echo "$diff_output" | head -n 100 > state/diff.txt
+                diff_lines=$(echo "$diff_output" | wc -l)
+              else
+                echo "No previous version to compare" > state/diff.txt
+                diff_lines=0
+              fi
               echo "diff_lines=$diff_lines" >> "$GITHUB_OUTPUT"
             else
               echo "No previous version to compare" > state/diff.txt
