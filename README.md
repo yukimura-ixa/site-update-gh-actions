@@ -6,6 +6,7 @@ A GitHub Actions workflow to monitor website changes and send notifications.
 
 - Monitors a target website on a scheduled basis (4 times daily)
 - Detects meaningful content changes while ignoring trivial updates
+- **AI-powered change summaries** using GitHub Models API
 - Creates GitHub issues with detailed change information
 - Sends Telegram notifications for immediate alerts
 - Saves HTML snapshots for historical reference
@@ -29,13 +30,15 @@ The workflow intelligently ignores trivial changes that don't represent actual c
    - Replacing all `"nonce":"..."` values with a placeholder
 3. Computes a hash of the normalized content
 4. Compares with the previous hash to detect changes
-5. Only triggers notifications for meaningful content changes
+5. **Only triggers notifications when there are actual content differences (diff_lines > 0)**
+6. Uses AI to generate a human-readable summary of detected changes
 
 ## Notifications
 
-When a meaningful change is detected:
+When a meaningful change is detected (with actual content differences):
 
 - **GitHub Issue**: Created with detailed information including:
+  - **AI-generated summary** of what changed on the website
   - Change identifier (ETag, Last-Modified, or content hash)
   - Commit SHA linking to the state snapshot
   - Number of changed lines
@@ -43,6 +46,10 @@ When a meaningful change is detected:
   - Explanation of what changes are ignored
 
 - **Telegram Message**: Instant notification sent to configured chat
+
+**Note**: Issues are NOT created for:
+- First-time runs with no previous state to compare
+- Changes with 0 diff lines (e.g., only normalized trivial changes)
 
 ## Usage
 

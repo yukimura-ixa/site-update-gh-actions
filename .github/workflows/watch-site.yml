@@ -136,10 +136,49 @@ jobs:
           # Output commit SHA for use in notifications
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      # Step 5: Create a GitHub issue to notify about the detected website change
+      # Step 5: Generate AI summary of the changes (only for meaningful changes)
+      # This uses GitHub Models API to provide human-readable change summaries
+      - name: Generate AI summary of changes
+        if: steps.detect.outputs.changed == 'true' && steps.detect.outputs.diff_lines > 0
+        id: ai_summary
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Read the diff content
+          diff_content=$(cat state/diff.txt | head -n 200)
+          
+          # Prepare prompt for AI to summarize the changes
+          prompt="You are analyzing a diff of a website's HTML content. The diff shows changes between two versions of the page. Please provide a concise summary of what changed on the website. Focus on meaningful content changes and ignore technical details like CSS, JavaScript, or formatting changes. Keep the summary under 3 sentences.
+
+          Here is the diff:
+          
+          $diff_content"
+          
+          # Call GitHub Models API (gpt-4o-mini model)
+          summary=$(curl -s -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"model\": \"gpt-4o-mini\",
+              \"messages\": [{
+                \"role\": \"user\",
+                \"content\": $(echo "$prompt" | jq -Rs .)
+              }],
+              \"max_tokens\": 150,
+              \"temperature\": 0.3
+            }" \
+            "https://models.inference.ai.azure.com/chat/completions" | jq -r '.choices[0].message.content // "AI summary not available"')
+          
+          # Save summary to output
+          echo "summary<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$summary" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      # Step 6: Create a GitHub issue to notify about the detected website change
       # This provides a permanent record and notification mechanism for changes
-      - name: Open issue notification (only when changed)
-        if: steps.detect.outputs.changed == 'true'
+      # Only creates issue when there's actual content change (diff_lines > 0)
+      - name: Open issue notification (only when changed with diff)
+        if: steps.detect.outputs.changed == 'true' && steps.detect.outputs.diff_lines > 0
         uses: actions/github-script@v7
         with:
           script: |
@@ -149,6 +188,7 @@ jobs:
             const id  = `${{ steps.get.outputs.id }}`;
             const sha = `${{ steps.commit.outputs.sha }}`;
             const diffLines = `${{ steps.detect.outputs.diff_lines }}`;
+            const aiSummary = `${{ steps.ai_summary.outputs.summary }}`;
             
             // Read diff content if available
             let diffContent = '';
@@ -161,6 +201,9 @@ jobs:
             // Create formatted issue body with update details
             const body = [
               `Detected an update at **${url}**`,
+              ``,
+              `**Change Summary (AI-generated):**`,
+              `> ${aiSummary || 'No summary available'}`,
               ``,
               `**Change Details:**`,
               `- Identifier: \`${id}\``,
@@ -190,10 +233,11 @@ jobs:
               body
             });
 
-      # Step 6: Send instant notification via Telegram bot
+      # Step 7: Send instant notification via Telegram bot
       # This provides immediate mobile/desktop notification for website changes
+      # Only sends notification when there's actual content change (diff_lines > 0)
       - name: Telegram notify
-        if: steps.detect.outputs.changed == 'true'
+        if: steps.detect.outputs.changed == 'true' && steps.detect.outputs.diff_lines > 0
         env:
           # Telegram bot credentials stored as GitHub repository secrets
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
