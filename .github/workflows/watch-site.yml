@@ -50,9 +50,21 @@ jobs:
           lm=$(awk 'BEGIN{IGNORECASE=1} /^last-modified:/{sub(/^[^:]*:[[:space:]]*/,""); print}' state/headers.tmp | tr -d '\r')
       
           # Generate unique identifier based on server headers or content hash
-          if [ -n "$etag" ]; then id="etag:$etag"
-          elif [ -n "$lm" ]; then id="lm:$lm"
-          else id=$(sha256sum state/body.tmp | awk '{print $1}')
+          if [ -n "$etag" ]; then 
+            id="etag:$etag"
+          elif [ -n "$lm" ]; then 
+            id="lm:$lm"
+          else 
+            # Create normalized version for comparison (ignore trivial changes)
+            # Remove Set-Cookie headers and normalize nonce values in JavaScript
+            grep -v '^Set-Cookie:' state/headers.tmp > state/headers.normalized || true
+            
+            # Normalize body content: replace dynamic nonce values with placeholder
+            # This prevents false positives from session tokens and nonces
+            sed -E 's/"nonce":"[^"]*"/"nonce":"NORMALIZED"/g' state/body.tmp > state/body.normalized
+            
+            # Compute hash on normalized content (headers + body)
+            id=$(cat state/headers.normalized state/body.normalized | sha256sum | awk '{print $1}')
           fi
       
           # Save outputs for use in subsequent steps
@@ -74,6 +86,32 @@ jobs:
             # Change detected: update previous.id for next run
             echo "changed=true" >> "$GITHUB_OUTPUT"
             cp state/current.id state/previous.id
+            
+            # Generate diff summary for issue notification
+            if [ -f state/last.html.prev ]; then
+              # Create normalized versions of both old and new content
+              sed -E 's/"nonce":"[^"]*"/"nonce":"NORMALIZED"/g' state/last.html.prev > state/prev.normalized
+              sed -E 's/"nonce":"[^"]*"/"nonce":"NORMALIZED"/g' state/last.html > state/curr.normalized
+              
+              # Compute diff statistics
+              diff_output=$(diff -u state/prev.normalized state/curr.normalized 2>/dev/null || echo "")
+              
+              # Save diff for issue (limit to 100 lines to avoid huge issues)
+              if [ -n "$diff_output" ]; then
+                echo "$diff_output" | head -n 100 > state/diff.txt
+                diff_lines=$(echo "$diff_output" | wc -l)
+              else
+                echo "No previous version to compare" > state/diff.txt
+                diff_lines=0
+              fi
+              echo "diff_lines=$diff_lines" >> "$GITHUB_OUTPUT"
+            else
+              echo "No previous version to compare" > state/diff.txt
+              echo "diff_lines=0" >> "$GITHUB_OUTPUT"
+            fi
+            
+            # Keep a copy of current HTML for next comparison
+            cp state/last.html state/last.html.prev
           fi
 
       # Step 4: Commit the updated state files back to the repository
@@ -110,14 +148,38 @@ jobs:
             const url = fs.readFileSync('state/url.txt','utf8').trim();
             const id  = `${{ steps.get.outputs.id }}`;
             const sha = `${{ steps.commit.outputs.sha }}`;
+            const diffLines = `${{ steps.detect.outputs.diff_lines }}`;
+            
+            // Read diff content if available
+            let diffContent = '';
+            try {
+              diffContent = fs.readFileSync('state/diff.txt', 'utf8');
+            } catch (e) {
+              diffContent = 'Diff not available';
+            }
             
             // Create formatted issue body with update details
             const body = [
               `Detected an update at **${url}**`,
               ``,
-              `Identifier: \`${id}\``,
-              `Commit: https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${sha}`,
-              `HTML snapshot saved at \`state/last.html\` in the repo.`
+              `**Change Details:**`,
+              `- Identifier: \`${id}\``,
+              `- Commit: https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${sha}`,
+              `- HTML snapshot saved at \`state/last.html\` in the repo`,
+              `- Diff lines: ${diffLines}`,
+              ``,
+              `**Notes:**`,
+              `- Trivial changes like Set-Cookie headers and JavaScript nonce values are normalized before comparison`,
+              `- This means changes to session IDs (PHPSESSID, dwqa_anonymous) and nonces in \`pdpa_thailand\` variable are ignored`,
+              `- Only meaningful content changes trigger this notification`,
+              ``,
+              `<details>`,
+              `<summary>Content Diff (normalized)</summary>`,
+              ``,
+              `\`\`\`diff`,
+              diffContent,
+              `\`\`\``,
+              `</details>`
             ].join('\n');
             
             // Create GitHub issue with change notification
