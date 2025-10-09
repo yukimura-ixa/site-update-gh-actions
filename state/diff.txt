@@ -1,1 +1,61 @@
-No previous version to compare
+--- state/prev.normalized	2025-10-09 08:12:28.878885609 +0000
++++ state/curr.normalized	2025-10-09 08:12:28.880885616 +0000
+@@ -499,6 +499,9 @@
+ 					<ul>
+ 												
+ 												
++							<li><a href="https://www.csc.ku.ac.th/th/?p=10743" title="ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุน้ำมันเชื้อเพลิงและหล่อลื่น จำนวน 2 รายการ">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุน้ำมันเชื้อเพลิงและหล่อลื่น จำนวน 2 รายการ</a></li>
++						
++												
+ 							<li><a href="https://www.csc.ku.ac.th/th/?p=10737" title="ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการพิจารณาคัดเลือกพนักงานมหาวิทยาลัยกลุ่มวิชาการประเภทคณาจารย์ประจำ สังกัดคณะศิลปศาสตร์และวิทยาการจัดการ ทางด้านภาษาอังกฤษ">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการพิจารณาคัดเลือกพนักงานมหาวิทยาลัยกลุ่มวิชาการประเภทคณาจารย์ประจำ สังกัดคณะศิลปศาสตร์และวิทยาการจัดการ ทางด้านภาษาอังกฤษ</a></li>
+ 						
+ 												
+@@ -520,9 +523,6 @@
+ 							<li><a href="https://www.csc.ku.ac.th/th/?p=10724" title="ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a></li>
+ 						
+ 												
+-							<li><a href="https://www.csc.ku.ac.th/th/?p=10722" title="ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ">ประกาศผลการคัดเลือกบุคคลเป็นพนักงานมหาวิทยาลัยเงินรายได้ สังกัดงานอาคารสถานที่และยานพาหนะ</a></li>
+-						
+-												
+ 											</ul>
+ 				</div>
+ 				
+@@ -750,9 +750,6 @@
+ 			<rs-module-wrap id="rev_slider_12_1_wrapper" data-source="gallery" style="visibility:hidden;background:#f2f2f2;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;max-width:;">
+ 				<rs-module id="rev_slider_12_1" style="" data-version="6.5.7">
+ 					<rs-slides>
+-						<rs-slide style="position: absolute;" data-key="rs-211" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/ขึ้นเว็บ-รับปริญญา-68-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
+-							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ขึ้นเว็บ รับปริญญา 68" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/ขึ้นเว็บ-รับปริญญา-68.jpg" data-no-retina>
+-<!---->						</rs-slide>
+ 						<rs-slide style="position: absolute;" data-key="rs-217" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/Untitled-2-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
+ 							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="Untitled 2" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/09/Untitled-2.jpg" data-no-retina>
+ <!---->						</rs-slide>
+@@ -931,7 +928,7 @@
+ 							
+ 					
+ 			<div class="textwidget post-content">
+-				<h2>ข่าวจ้างเหมา/ประกวดราคา <a href="https://www.csc.ku.ac.th/th/?page_id=8867">(ดูทั้งหมด)</a></h2><p><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="https://www.csc.ku.ac.th/th/?p=10733">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุไฟฟ้า จำนวน 16 รายการ</a>  01/10/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10731">ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10729">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10726">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10724">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10711">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10708">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10706">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุยานพาหนะและขนส่ง (รถจักยานยนต์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10704">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุงานบ้านงานครัว จำนวน 3 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10702">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 8 รายการ</a>  08/09/2025</li></ul></p>			</div>
++				<h2>ข่าวจ้างเหมา/ประกวดราคา <a href="https://www.csc.ku.ac.th/th/?page_id=8867">(ดูทั้งหมด)</a></h2><p><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="https://www.csc.ku.ac.th/th/?p=10743">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุน้ำมันเชื้อเพลิงและหล่อลื่น จำนวน 2 รายการ</a>  09/10/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10733">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุไฟฟ้า จำนวน 16 รายการ</a>  01/10/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10731">ประกาศผู้ชนะการเสนอราคา วัสดุสำนักงาน (เทปพิมพ์อักษร ขนาด 36 มม.) จำนวน 20 ม้วน</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10729">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อครุภัณฑ์คอมพิวเตอร์ จำนวน 25 เครื่อง</a>  26/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10726">ประกาศผู้ชนะการเสนอราคา ประกวดราคาซื้อชุดครุภัณฑ์ประเมินและวิเคราะห์คุณค่าทางโภชนาการ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10724">ประกวดราคาซื้อชุดครุภัณฑ์แปรรูปผลิตภัณฑ์เบเกอรี่ จำนวน 1 ชุด</a>  22/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10711">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุก่อสร้าง จำนวน 18  รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10708">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10706">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุยานพาหนะและขนส่ง (รถจักยานยนต์) จำนวน 5 รายการ</a>  08/09/2025</li><li><a href="https://www.csc.ku.ac.th/th/?p=10704">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุงานบ้านงานครัว จำนวน 3 รายการ</a>  08/09/2025</li></ul></p>			</div>
+ 			
+ 					
+ 			 </div> 			
+@@ -1119,6 +1116,9 @@
+ 		<h3 class="widgettitle">ข่าว/กิจกรรมล่าสุด</h3>
+ 		<ul>
+ 											<li>
++					<a href="https://www.csc.ku.ac.th/th/?p=10743">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุน้ำมันเชื้อเพลิงและหล่อลื่น จำนวน 2 รายการ</a>
++									</li>
++											<li>
+ 					<a href="https://www.csc.ku.ac.th/th/?p=10737">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการพิจารณาคัดเลือกพนักงานมหาวิทยาลัยกลุ่มวิชาการประเภทคณาจารย์ประจำ สังกัดคณะศิลปศาสตร์และวิทยาการจัดการ ทางด้านภาษาอังกฤษ</a>
+ 									</li>
+ 											<li>
+@@ -1151,9 +1151,6 @@
+ 											<li>
+ 					<a href="https://www.csc.ku.ac.th/th/?p=10708">ประกาศผู้ชนะการเสนอราคา ซื้้อวัสดุสำนักงาน (ธงชาติ,ธงตราสัญลักษณ์) จำนวน 5 รายการ</a>
+ 									</li>
+-											<li>
+-					<a href="https://www.csc.ku.ac.th/th/?p=10706">ประกาศผู้ชนะการเสนอราคา ซื้อวัสดุยานพาหนะและขนส่ง (รถจักยานยนต์) จำนวน 5 รายการ</a>
+-									</li>
+ 					</ul>
+ 
+ 		</li>
