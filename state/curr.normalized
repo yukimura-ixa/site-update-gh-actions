@@ -762,7 +762,12 @@ document.querySelector('head').innerHTML += '<style class="bunyad-img-effects-cs
 						<rs-slide style="position: absolute;" data-key="rs-210" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
 							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ขึ้นเว็บ Copy (1)" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1.jpg" data-no-retina>
 <!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-224" data-title="Slide" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Slide" title="home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/transparent.png" data-no-retina>
+<!---->						</rs-slide>
 					</rs-slides>
+					<rs-static-layers><!--
+					--></rs-static-layers>
 				</rs-module>
 				<script type="text/javascript">
 					setREVStartSize({c: 'rev_slider_12_1',rl:[1240,1024,778,480],el:[450],gw:[1128],gh:[450],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider121"]!==undefined) {window.RS_MODULES.modules["revslider121"].once = false;window.revapi12 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
