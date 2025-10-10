@@ -1,12 +1,12 @@
 HTTP/1.1 200 OK
-Date: Thu, 09 Oct 2025 09:09:51 GMT
+Date: Fri, 10 Oct 2025 02:15:54 GMT
 Server: Apache
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 X-Frame-Options: SAMEORIGIN
 Access-Control-Allow-Origin: csc.ku.ac.th
 X-Powered-By: PHP/7.4.33
-Set-Cookie: dwqa_anonymous=wy2tX5J62t0XQStemhhDNyJdwi5VYw2UKvJLnLzodMi; expires=Sun, 07-Oct-2035 09:09:51 GMT; Max-Age=315360000; path=/th/; secure; HttpOnly
-Set-Cookie: PHPSESSID=vt0lk968ponavound1mpn5nl14; path=/
+Set-Cookie: dwqa_anonymous=RCHqTOhHfLJDKeHrVBMifZf1dhD3nOerLLI7nelmaXX; expires=Mon, 08-Oct-2035 02:15:54 GMT; Max-Age=315360000; path=/th/; secure; HttpOnly
+Set-Cookie: PHPSESSID=f7v1i3fg9p37p3g9v6t0oqln5s; path=/
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
