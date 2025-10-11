@@ -762,8 +762,14 @@ document.querySelector('head').innerHTML += '<style class="bunyad-img-effects-cs
 						<rs-slide style="position: absolute;" data-key="rs-210" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1-100x50.jpg" data-seoz="front" data-in="o:0;" data-out="a:false;">
 							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="ขึ้นเว็บ Copy (1)" width="1617" height="645" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2022/11/ขึ้นเว็บ-copy-1.jpg" data-no-retina>
 <!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-223" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2024/09/458075047_1465550264104325_5326908224234043571_n-100x50.jpg" data-link="//docs.google.com/forms/d/e/1FAIpQLSfL_aNol8iLZDYaSYlKU4zsjsa6muoRQZxW0yTuI4ebcGk7dQ/viewform?fbclid=IwY2xjawFUvmxleHRuA2FlbQIxMAABHe_0z3jbwlkNCBVdCuI4vDxKTF1jxlFQ9bCEnsilZ-dlXhzX_fLASEazdQ_aem_7QGPhlsZ4r8gV-5AxgEgzA" data-target="_self" data-seoz="front" data-in="o:0;" data-out="a:false;">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="458075047 1465550264104325 5326908224234043571 N" width="2048" height="817" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2024/09/458075047_1465550264104325_5326908224234043571_n.jpg" data-no-retina>
+<!---->						</rs-slide>
 						<rs-slide style="position: absolute;" data-key="rs-224" data-title="Slide" data-in="o:0;" data-out="a:false;">
 							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Slide" title="home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/transparent.png" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-225" data-title="Slide" data-thumb="//www.csc.ku.ac.th/th/wp-content/uploads/2025/10/86a3bc38-bb62-4485-bd8d-18bdb2d4f6f9-100x50.jpg" data-in="o:0;" data-out="a:false;" data-mediafilter="xpro2">
+							<img src="//www.csc.ku.ac.th/th/wp-content/plugins/revslider/public/assets/assets/dummy.png" title="86a3bc38 Bb62 4485 Bd8d 18bdb2d4f6f9" width="1200" height="628" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.csc.ku.ac.th/th/wp-content/uploads/2025/10/86a3bc38-bb62-4485-bd8d-18bdb2d4f6f9.jpg" data-bg="f:contain;r:repeat-y;" data-no-retina>
 <!---->						</rs-slide>
 					</rs-slides>
 					<rs-static-layers><!--
