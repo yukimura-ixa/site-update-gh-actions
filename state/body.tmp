@@ -1312,7 +1312,7 @@ var wpcf7 = {
 <script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/pdpa-thailand/public/assets/js/js-cookie.min.js?ver=1.2.3" id="pdpa-thailand-js-cookie-js"></script>
 <script type="text/javascript" id="pdpa-thailand-public-js-extra">
 /* <![CDATA[ */
-var pdpa_thailand = {"url":"https:\/\/www.csc.ku.ac.th\/th\/wp-admin\/admin-ajax.php","nonce":"f804fe0d1e","unique_id":"pdpa_629048fc3aa33","enable":"1","duration":"7","cookie_list":"{\"code_in_head\":\"\",\"code_next_body\":\"\",\"code_body_close\":\"\"}"};
+var pdpa_thailand = {"url":"https:\/\/www.csc.ku.ac.th\/th\/wp-admin\/admin-ajax.php","nonce":"c384fbf620","unique_id":"pdpa_629048fc3aa33","enable":"1","duration":"7","cookie_list":"{\"code_in_head\":\"\",\"code_next_body\":\"\",\"code_body_close\":\"\"}"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://www.csc.ku.ac.th/th/wp-content/plugins/pdpa-thailand/public/assets/js/pdpa-thailand-public.js?ver=1.2.3" id="pdpa-thailand-public-js"></script>
